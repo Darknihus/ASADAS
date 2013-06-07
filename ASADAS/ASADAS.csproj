@@ -61,8 +61,11 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Css\Site.css" />
     <Content Include="Default.aspx" />
+    <Content Include="Images\water.png" />
     <Content Include="Mapa.aspx" />
+    <Content Include="Script\BingMap.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

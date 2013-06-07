@@ -1,0 +1,18 @@
+﻿.pinText
+{ 
+    position:relative; 
+    top:-25px; 
+    left:2px;
+    color:red !important;
+    text-align:center; 
+    font: bold 12px Arial; 
+}
+
+.map {
+   position: relative;
+   top: 20px;
+   left: 10px;
+   width: 400px;
+   height: 400px;
+   border:#555555 2px solid;
+}
