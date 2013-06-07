@@ -61,48 +61,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Css\Images.css" />
     <Content Include="Css\Site.css" />
-    <Content Include="Css\sRegistrar.css" />
-    <Content Include="Css\Styles.css" />
-    <Content Include="Css\Tables.css" />
     <Content Include="Default.aspx" />
-    <Content Include="Forms\AgregarAutor.aspx" />
-    <Content Include="Forms\AgregarLibro.aspx" />
-    <Content Include="Forms\AgregarPersona.aspx" />
-    <Content Include="Forms\AgregarTarjeta.aspx" />
-    <Content Include="Forms\BajaLibro.aspx" />
-    <Content Include="Forms\BajaPersona.aspx" />
-    <Content Include="Forms\Buscar.aspx" />
-    <Content Include="Forms\Comprar.aspx" />
-    <Content Include="Forms\Configuracion.aspx" />
-    <Content Include="Forms\Default.aspx" />
-    <Content Include="Forms\EditarAutor.aspx" />
-    <Content Include="Forms\EditarLibro.aspx" />
-    <Content Include="Forms\EditarPersona.aspx" />
-    <Content Include="Forms\Ventas.aspx" />
-    <Content Include="Forms\VentasAdeudos.aspx" />
-    <Content Include="Images\banner %281%29.png" />
-    <Content Include="Images\banner %2810%29.png" />
-    <Content Include="Images\banner %282%29.png" />
-    <Content Include="Images\banner %283%29.png" />
-    <Content Include="Images\banner %284%29.png" />
-    <Content Include="Images\banner %285%29.png" />
-    <Content Include="Images\banner %286%29.png" />
-    <Content Include="Images\banner %287%29.png" />
-    <Content Include="Images\banner %288%29.png" />
-    <Content Include="Images\banner %289%29.png" />
-    <Content Include="Images\banner.png" />
-    <Content Include="Images\eliminar.png" />
-    <Content Include="Images\Empresa.png" />
-    <Content Include="Images\Empresa2.png" />
-    <Content Include="Images\error1.png" />
-    <Content Include="Images\fondo2.PNG" />
-    <Content Include="Images\head.jpg" />
-    <Content Include="Images\head2.jpg" />
-    <Content Include="Images\me-registro-btn.gif" />
-    <Content Include="Images\Usuario.png" />
-    <Content Include="Images\Usuario2.png" />
     <Content Include="Images\water.png" />
     <Content Include="Mapa.aspx" />
     <Content Include="Script\BingMap.js" />
@@ -115,104 +75,11 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Clases\cGeneralMetodos.cs" />
-    <Compile Include="Clases\query.cs" />
-    <Compile Include="Clases\queryOracle.cs" />
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\AgregarAutor.aspx.cs">
-      <DependentUpon>AgregarAutor.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\AgregarAutor.aspx.designer.cs">
-      <DependentUpon>AgregarAutor.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\AgregarLibro.aspx.cs">
-      <DependentUpon>AgregarLibro.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\AgregarLibro.aspx.designer.cs">
-      <DependentUpon>AgregarLibro.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\AgregarPersona.aspx.cs">
-      <DependentUpon>AgregarPersona.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\AgregarPersona.aspx.designer.cs">
-      <DependentUpon>AgregarPersona.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\AgregarTarjeta.aspx.cs">
-      <DependentUpon>AgregarTarjeta.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\AgregarTarjeta.aspx.designer.cs">
-      <DependentUpon>AgregarTarjeta.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\BajaLibro.aspx.cs">
-      <DependentUpon>BajaLibro.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\BajaLibro.aspx.designer.cs">
-      <DependentUpon>BajaLibro.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\BajaPersona.aspx.cs">
-      <DependentUpon>BajaPersona.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\BajaPersona.aspx.designer.cs">
-      <DependentUpon>BajaPersona.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\Buscar.aspx.cs">
-      <DependentUpon>Buscar.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\Buscar.aspx.designer.cs">
-      <DependentUpon>Buscar.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\Comprar.aspx.cs">
-      <DependentUpon>Comprar.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\Comprar.aspx.designer.cs">
-      <DependentUpon>Comprar.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\Configuracion.aspx.cs">
-      <DependentUpon>Configuracion.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\Configuracion.aspx.designer.cs">
-      <DependentUpon>Configuracion.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\Default.aspx.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\Default.aspx.designer.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\EditarAutor.aspx.cs">
-      <DependentUpon>EditarAutor.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\EditarAutor.aspx.designer.cs">
-      <DependentUpon>EditarAutor.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\EditarLibro.aspx.cs">
-      <DependentUpon>EditarLibro.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\EditarLibro.aspx.designer.cs">
-      <DependentUpon>EditarLibro.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\EditarPersona.aspx.cs">
-      <DependentUpon>EditarPersona.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\EditarPersona.aspx.designer.cs">
-      <DependentUpon>EditarPersona.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\Ventas.aspx.cs">
-      <DependentUpon>Ventas.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\Ventas.aspx.designer.cs">
-      <DependentUpon>Ventas.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\VentasAdeudos.aspx.cs">
-      <DependentUpon>VentasAdeudos.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\VentasAdeudos.aspx.designer.cs">
-      <DependentUpon>VentasAdeudos.aspx</DependentUpon>
     </Compile>
     <Compile Include="Mapa.aspx.cs">
       <DependentUpon>Mapa.aspx</DependentUpon>
