@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ASADAS", "ASADAS\ASADAS.vbproj", "{5A3C4EE8-F4CA-463A-86AC-8BFEEE89CEE5}"
 EndProject
 Global
