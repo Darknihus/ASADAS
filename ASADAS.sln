@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ASADAS", "ASADAS\ASADAS.vbproj", "{6E0E3AD2-7BDE-4524-9ABA-F839D4B35305}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASADAS", "ASADAS\ASADAS.csproj", "{5CF14B54-47AE-4659-925B-F496FC88EDCB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +9,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6E0E3AD2-7BDE-4524-9ABA-F839D4B35305}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6E0E3AD2-7BDE-4524-9ABA-F839D4B35305}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6E0E3AD2-7BDE-4524-9ABA-F839D4B35305}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6E0E3AD2-7BDE-4524-9ABA-F839D4B35305}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CF14B54-47AE-4659-925B-F496FC88EDCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CF14B54-47AE-4659-925B-F496FC88EDCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CF14B54-47AE-4659-925B-F496FC88EDCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CF14B54-47AE-4659-925B-F496FC88EDCB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
