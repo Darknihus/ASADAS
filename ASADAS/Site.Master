@@ -1,20 +1,33 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="ASADAS.Site" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="AB3.Site" %>
+
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title></title>    
-  
-    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
-    </asp:ContentPlaceHolder>
-</head>
-<body >
-    <form id="form1" runat="server"> 
-        
-      <div>
-        <asp:ContentPlaceHolder ID="BodyContent" runat="server">
+<html lang="es">
+    <head id="Head1" runat="server">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta charset="utf-8" />
+        <title>Empleos TEC</title>
+        <link href="CSS/Styles.css" rel="stylesheet" />
+        <link href="CSS/Images.css" rel="stylesheet" />
+        <link href="CSS/sRegistrar.css" rel="stylesheet" />
+        <link href="CSS/Site.css" rel="stylesheet" />
+        <link href="CSS/Tables.css" rel="stylesheet" />
+        <asp:ContentPlaceHolder ID="HeadContent" runat="server">
         </asp:ContentPlaceHolder>
-    </div>
-    </form>
-</body>
+    </head>
+    <body class="fondo">
+        <div class="body">
+            <div class="imgp">
+                <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Interfaz/Default.aspx">
+                    <asp:Image ID="Image2" runat="server" ImageUrl="/Images/head2.jpg" />
+                </asp:HyperLink>
+
+            </div>  
+            <asp:ContentPlaceHolder ID="BodyContent" runat="server">
+                
+            </asp:ContentPlaceHolder>
+            <footer>
+
+            </footer>
+        </div> 
+    </body>
 </html>
