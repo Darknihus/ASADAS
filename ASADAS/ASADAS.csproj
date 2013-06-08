@@ -67,8 +67,16 @@
     <Content Include="Css\Styles.css" />
     <Content Include="Css\Tables.css" />
     <Content Include="Default.aspx" />
+    <Content Include="Forms\ASADAAgregar.aspx" />
+    <Content Include="Forms\ASADAEliminar.aspx" />
+    <Content Include="Forms\ASADAModificar.aspx" />
+    <Content Include="Forms\FuenteAgregar.aspx" />
+    <Content Include="Forms\FuenteEliminar.aspx" />
     <Content Include="Forms\LecturaAgregar.aspx" />
     <Content Include="Forms\LecturaEliminar.aspx" />
+    <Content Include="Forms\MaterialAgregar.aspx" />
+    <Content Include="Forms\MaterialEliminar.aspx" />
+    <Content Include="Forms\MaterialModificar.aspx" />
     <Content Include="Forms\MedidorAgregar.aspx" />
     <Content Include="Forms\MedidorEliminar.aspx" />
     <Content Include="Viejos\AgregarLibro.aspx" />
@@ -123,6 +131,41 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Forms\ASADAAgregar.aspx.cs">
+      <DependentUpon>ASADAAgregar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\ASADAAgregar.aspx.designer.cs">
+      <DependentUpon>ASADAAgregar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ASADAEliminar.aspx.cs">
+      <DependentUpon>ASADAEliminar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\ASADAEliminar.aspx.designer.cs">
+      <DependentUpon>ASADAEliminar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ASADAModificar.aspx.cs">
+      <DependentUpon>ASADAModificar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\ASADAModificar.aspx.designer.cs">
+      <DependentUpon>ASADAModificar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FuenteAgregar.aspx.cs">
+      <DependentUpon>FuenteAgregar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\FuenteAgregar.aspx.designer.cs">
+      <DependentUpon>FuenteAgregar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FuenteEliminar.aspx.cs">
+      <DependentUpon>FuenteEliminar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\FuenteEliminar.aspx.designer.cs">
+      <DependentUpon>FuenteEliminar.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Forms\LecturaAgregar.aspx.cs">
       <DependentUpon>LecturaAgregar.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -136,6 +179,27 @@
     </Compile>
     <Compile Include="Forms\LecturaEliminar.aspx.designer.cs">
       <DependentUpon>LecturaEliminar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MaterialAgregar.aspx.cs">
+      <DependentUpon>MaterialAgregar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\MaterialAgregar.aspx.designer.cs">
+      <DependentUpon>MaterialAgregar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MaterialEliminar.aspx.cs">
+      <DependentUpon>MaterialEliminar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\MaterialEliminar.aspx.designer.cs">
+      <DependentUpon>MaterialEliminar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MaterialModificar.aspx.cs">
+      <DependentUpon>MaterialModificar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\MaterialModificar.aspx.designer.cs">
+      <DependentUpon>MaterialModificar.aspx</DependentUpon>
     </Compile>
     <Compile Include="Forms\MedidorAgregar.aspx.cs">
       <DependentUpon>MedidorAgregar.aspx</DependentUpon>
