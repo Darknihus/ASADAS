@@ -67,6 +67,8 @@
     <Content Include="Css\Styles.css" />
     <Content Include="Css\Tables.css" />
     <Content Include="Default.aspx" />
+    <Content Include="Forms\LecturaAgregar.aspx" />
+    <Content Include="Forms\LecturaEliminar.aspx" />
     <Content Include="Forms\MedidorAgregar.aspx" />
     <Content Include="Forms\MedidorEliminar.aspx" />
     <Content Include="Viejos\AgregarLibro.aspx" />
@@ -120,6 +122,20 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\LecturaAgregar.aspx.cs">
+      <DependentUpon>LecturaAgregar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\LecturaAgregar.aspx.designer.cs">
+      <DependentUpon>LecturaAgregar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\LecturaEliminar.aspx.cs">
+      <DependentUpon>LecturaEliminar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\LecturaEliminar.aspx.designer.cs">
+      <DependentUpon>LecturaEliminar.aspx</DependentUpon>
     </Compile>
     <Compile Include="Forms\MedidorAgregar.aspx.cs">
       <DependentUpon>MedidorAgregar.aspx</DependentUpon>
