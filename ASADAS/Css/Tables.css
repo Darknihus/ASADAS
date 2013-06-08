@@ -1,16 +1,16 @@
-﻿body {
+﻿td {
+    margin-top: 20px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	font-weight:bold;
+}
+
+.tdright {
+    text-align:right;
 }
 
 .tdleft {
     margin-left: 10px;
     text-align:left;
     vertical-align:text-top;
-}
-
-.tdborderbot {
-    margin-left: 10px;
-    text-align:left;
-    vertical-align:text-top;
-    border-bottom:solid;
-    border-bottom-color:darkblue;
 }

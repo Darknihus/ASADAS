@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="BodyContent" runat="server">
- <form id="Form1" runat="server">
+    <form id="Form1" runat="server">
         <div id="Div1" runat="server">
             <div id="Div2" class="inicio" runat="server">
                 <nav id="Nav1" class="menu" runat="server">
@@ -47,7 +47,7 @@
                 <td><asp:TextBox ID="txtCodigoPostal" class="txt" runat="server" placeholder="" Height="20px" Width="200px"/></td>
             </tr>
             <tr>
-                <td><asp:Label ID="Label7" class="lblRegistrar" runat="server" Text="Dirección:" /></td>
+                <td>Dirección:</td>
                 <td><asp:TextBox ID="txtDireccion" class="txta" runat="server" TextMode="MultiLine" Width="200px" /></td>
             </tr>
             <tr>

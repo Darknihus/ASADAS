@@ -61,10 +61,12 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Css\btn.css" />
     <Content Include="Css\Images.css" />
     <Content Include="Css\Site.css" />
     <Content Include="Css\Styles.css" />
-    <Content Include="Css\Tables.css" />
+    <Content Include="Css\tables.css" />
+    <Content Include="Css\txt.css" />
     <Content Include="Default.aspx" />
     <Content Include="Forms\AbonadoAgregar.aspx" />
     <Content Include="Forms\AbonadoEliminar.aspx" />
@@ -89,9 +91,6 @@
     <Content Include="Forms\UsuarioEliminar.aspx" />
     <Content Include="Forms\UsuarioModificar.aspx" />
     <Content Include="Viejos\AgregarLibro.aspx" />
-    <Content Include="Viejos\AgregarPersona.aspx" />
-    <Content Include="Viejos\BajaLibro.aspx" />
-    <Content Include="Viejos\BajaPersona.aspx" />
     <Content Include="Viejos\Buscar.aspx" />
     <Content Include="Viejos\Comprar.aspx" />
     <Content Include="Viejos\Configuracion.aspx" />
@@ -111,7 +110,7 @@
     <Content Include="Images\eliminar.png" />
     <Content Include="Images\Empresa.png" />
     <Content Include="Images\Empresa2.png" />
-    <Content Include="Images\error1.png" />
+    <Content Include="Images\error.png" />
     <Content Include="Images\fondo2.PNG" />
     <Content Include="Images\head.jpg" />
     <Content Include="Images\head2.jpg" />
@@ -300,27 +299,6 @@
     </Compile>
     <Compile Include="Viejos\AgregarLibro.aspx.designer.cs">
       <DependentUpon>AgregarLibro.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Viejos\AgregarPersona.aspx.cs">
-      <DependentUpon>AgregarPersona.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Viejos\AgregarPersona.aspx.designer.cs">
-      <DependentUpon>AgregarPersona.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Viejos\BajaLibro.aspx.cs">
-      <DependentUpon>BajaLibro.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Viejos\BajaLibro.aspx.designer.cs">
-      <DependentUpon>BajaLibro.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Viejos\BajaPersona.aspx.cs">
-      <DependentUpon>BajaPersona.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Viejos\BajaPersona.aspx.designer.cs">
-      <DependentUpon>BajaPersona.aspx</DependentUpon>
     </Compile>
     <Compile Include="Viejos\Buscar.aspx.cs">
       <DependentUpon>Buscar.aspx</DependentUpon>

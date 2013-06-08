@@ -2,3 +2,4 @@ C:\Users\Gordo\Documents\GitHub\ASADAS\ASADAS\bin\ASADAS.dll
 C:\Users\Gordo\Documents\GitHub\ASADAS\ASADAS\bin\ASADAS.pdb
 C:\Users\Gordo\Documents\GitHub\ASADAS\ASADAS\obj\Debug\ASADAS.dll
 C:\Users\Gordo\Documents\GitHub\ASADAS\ASADAS\obj\Debug\ASADAS.pdb
+C:\Users\Gordo\Documents\GitHub\ASADAS\ASADAS\obj\Debug\ASADAS.csprojResolveAssemblyReference.cache

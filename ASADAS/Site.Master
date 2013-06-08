@@ -8,9 +8,10 @@
         <title>Empleos TEC</title>
         <link href="CSS/Styles.css" rel="stylesheet" />
         <link href="CSS/Images.css" rel="stylesheet" />
-        <link href="CSS/sRegistrar.css" rel="stylesheet" />
+        <link href="CSS/btn.css" rel="stylesheet" />
+        <link href="CSS/txt.css" rel="stylesheet" />
         <link href="CSS/Site.css" rel="stylesheet" />
-        <link href="CSS/Tables.css" rel="stylesheet" />
+        <link href="CSS/tables.css" rel="stylesheet" />
         <asp:ContentPlaceHolder ID="HeadContent" runat="server">
         </asp:ContentPlaceHolder>
     </head>
