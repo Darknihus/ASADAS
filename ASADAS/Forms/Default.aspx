@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="Página principal" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="AB3._Default" %>
-<asp:Content ID="head2" ContentPlaceHolderID="head" runat="server"></asp:Content>
-<asp:Content ID="Content1" ContentPlaceHolderID="Body" runat="server">
+<asp:Content ID="HeadContent" ContentPlaceHolderID="HeadContent" runat="server"></asp:Content>
+<asp:Content ID="BodyContent" ContentPlaceHolderID="BodyContent"  runat="server">
     <form id="Principal" runat="server">
         <div class="inicio" runat="server">
             <nav class="menu" runat="server">
@@ -37,8 +37,7 @@
              <asp:ImageButton ID="btnConfiguracion" runat="server" class="RegistroImagen" ImageUrl="~/Images/banner (8).png" OnClick="btnConfiguracion_Click"  Visible="false" /><br />
         </div>
         <div class="registrar">
-    <div class="titulo">Libros</div>
-             <br />
+    <div class="titulo">Libros</div><br/>
                 <asp:Image ID="imgError2" Visible="false" class="imgError" runat="server" ImageUrl="/Images/error1.png" />
                     &nbsp;<asp:Label ID="msgError2" class="error" runat="server" Text="" />
         <br/>

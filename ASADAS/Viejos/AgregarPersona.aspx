@@ -1,8 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeBehind="AgregarPersona.aspx.cs" Inherits="AB3.Interfaz.AgregarPersona" %>
-<asp:Content ContentPlaceHolderID="head" runat="server">
-
-</asp:Content>
-<asp:Content ContentPlaceHolderID="Body" runat="server">
+<asp:Content ID="HeadContent" ContentPlaceHolderID="HeadContent" runat="server"></asp:Content>
+<asp:Content ID="BodyContent" ContentPlaceHolderID="BodyContent"  runat="server">
     <form id="Form1" runat="server">
         <div id="Div1" runat="server">
             <div id="Div2" class="inicio" runat="server">
