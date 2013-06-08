@@ -67,6 +67,9 @@
     <Content Include="Css\Styles.css" />
     <Content Include="Css\Tables.css" />
     <Content Include="Default.aspx" />
+    <Content Include="Forms\AbonadoAgregar.aspx" />
+    <Content Include="Forms\AbonadoEliminar.aspx" />
+    <Content Include="Forms\AbonadoModificar.aspx" />
     <Content Include="Forms\ASADAAgregar.aspx" />
     <Content Include="Forms\ASADAEliminar.aspx" />
     <Content Include="Forms\ASADAModificar.aspx" />
@@ -130,6 +133,27 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AbonadoAgregar.aspx.cs">
+      <DependentUpon>AbonadoAgregar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\AbonadoAgregar.aspx.designer.cs">
+      <DependentUpon>AbonadoAgregar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AbonadoEliminar.aspx.cs">
+      <DependentUpon>AbonadoEliminar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\AbonadoEliminar.aspx.designer.cs">
+      <DependentUpon>AbonadoEliminar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AbonadoModificar.aspx.cs">
+      <DependentUpon>AbonadoModificar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\AbonadoModificar.aspx.designer.cs">
+      <DependentUpon>AbonadoModificar.aspx</DependentUpon>
     </Compile>
     <Compile Include="Forms\ASADAAgregar.aspx.cs">
       <DependentUpon>ASADAAgregar.aspx</DependentUpon>
