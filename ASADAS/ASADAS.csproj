@@ -63,7 +63,6 @@
   <ItemGroup>
     <Content Include="Css\Images.css" />
     <Content Include="Css\Site.css" />
-    <Content Include="Css\sRegistrar.css" />
     <Content Include="Css\Styles.css" />
     <Content Include="Css\Tables.css" />
     <Content Include="Default.aspx" />

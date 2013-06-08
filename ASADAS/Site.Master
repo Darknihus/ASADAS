@@ -17,7 +17,7 @@
     <body class="fondo">
         <div class="body">
             <div class="imgp">
-                <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Interfaz/Default.aspx">
+                <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Form/Default.aspx">
                     <asp:Image ID="Image2" runat="server" ImageUrl="/Images/head2.jpg" />
                 </asp:HyperLink>
 
