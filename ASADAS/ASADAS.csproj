@@ -93,7 +93,6 @@
     <Content Include="Viejos\AgregarLibro.aspx" />
     <Content Include="Viejos\Buscar.aspx" />
     <Content Include="Viejos\Comprar.aspx" />
-    <Content Include="Viejos\Configuracion.aspx" />
     <Content Include="Forms\Default.aspx" />
     <Content Include="Images\banner %281%29.png" />
     <Content Include="Images\banner %2810%29.png" />
@@ -312,13 +311,6 @@
     </Compile>
     <Compile Include="Viejos\Comprar.aspx.designer.cs">
       <DependentUpon>Comprar.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Viejos\Configuracion.aspx.cs">
-      <DependentUpon>Configuracion.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Viejos\Configuracion.aspx.designer.cs">
-      <DependentUpon>Configuracion.aspx</DependentUpon>
     </Compile>
     <Compile Include="Forms\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
