@@ -8,25 +8,25 @@ var layerllaves = new Microsoft.Maps.EntityCollection();
 function LoadMap() {
     // Initialize the map
     map = new Microsoft.Maps.Map(
-        document.getElementById("myMap"),  
+        document.getElementById("myMap"),
         //mapOptions 
         {
             credentials: "AjcOtl_moqFDt9N57pe6Y5EMsGOgX4w7zJL_vAzFzegVWVX-dbst-5FEHyqYFwOr",
             mapTypeId: Microsoft.Maps.MapTypeId.aerial,
             center: new Microsoft.Maps.Location(10.65672975334863, -84.76763305664062),
             zoom: 12,
-            enableClickableLogo:false,
+            enableClickableLogo: false,
             enableSearchLogo: false,
             showCopyright: false,
-            showMapTypeSelector:false
-           // disableBirdseye: true
-       });
-   
+            showMapTypeSelector: false
+            // disableBirdseye: true
+        });
+
     // Add a handler for the map click event.
     Microsoft.Maps.Events.addHandler(map, 'click', addPin);
 
-   
-  //  Microsoft.Maps.Events.addHandler(map.entities, 'entityadded', shadePins);  // Accesar los puntos anteiores
+
+    //  Microsoft.Maps.Events.addHandler(map.entities, 'entityadded', shadePins);  // Accesar los puntos anteiores
 }
 
 function UnloadMap() {
@@ -40,22 +40,21 @@ function addPin(e) {
     if (e.targetType == "map") {
         var point = new Microsoft.Maps.Point(e.getX(), e.getY());//Devuelve la ubicacion del punto donde se encuentra el punter
         var loc = e.target.tryPixelToLocation(point);
-        var pin = new Microsoft.Maps.Pushpin
-            (
-                loc, //localizacion del punto
-                {
-                    icon: '/images/water.png',
-                    draggable: true,
-                    textOffset: new Microsoft.Maps.Point(e.getX() + 0.000001, e.getY() + 0.000001),
-                   // typeName:'pinText',
-                        text: 'patito'
-                }
-            );
-        document.getElementById("textBox").value= loc.latitude + ", " + loc.longitude; //carga el textbox con la latitud y longitud del ping actual
-        Microsoft.Maps.Events.addHandler(pin, 'click', removePin); // Attach a handler to the pin so that it is removed when it is clicked
-        Microsoft.Maps.Events.addHandler(pin, 'mouseover', showPinInformation);
-        map.entities.push(pin);//agrega el pin
-
+        var nombre = prompt("Ingrese el nombre de la ASADA", "");
+        if ((nombre != null) && (nombre != "")) {
+            var pin = new Microsoft.Maps.Pushpin
+                (
+                    loc, //localizacion del punto
+                    {
+                        draggable: true,
+                        htmlContent: "<div style='font-size:20px; color:Black; font-weight:bold;'>" + nombre + "<br/><img src='/images/water.png'/></div>"
+                    }
+                );
+            document.getElementById("textBox").value = loc.latitude + ", " + loc.longitude; //carga el textbox con la latitud y longitud del ping actual
+            Microsoft.Maps.Events.addHandler(pin, 'click', removePin); // Attach a handler to the pin so that it is removed when it is clicked
+            Microsoft.Maps.Events.addHandler(pin, 'mouseover', showPinInformation);
+            map.entities.push(pin);//agrega el pin
+        }
     }
 }
 
@@ -65,7 +64,7 @@ function removePin(e) {
     if (r == true) {
         var indexOfPinToRemove = map.entities.indexOf(e.target);
         map.entities.removeAt(indexOfPinToRemove);
-    }    
+    }
 }
 
 function shadePins(e) {
@@ -90,8 +89,8 @@ function shadePins(e) {
 
 function showPinInformation(e) {
     if (e.targetType == 'pushpin') {
-       // var pinLoc = e.target.getLocation();
-       // alert("The location of the pushpin is now " + pinLoc.latitude + ", " + pinLoc.longitude);
+        // var pinLoc = e.target.getLocation();
+        // alert("The location of the pushpin is now " + pinLoc.latitude + ", " + pinLoc.longitude);
         //
     }
 }
@@ -99,15 +98,9 @@ function showPinInformation(e) {
 
 
 function loadASADAS() {
-
+    array
     map.entities.clear();
+
     var pushpin = new Microsoft.Maps.Pushpin(map.getCenter(), null);
     map.entities.push(pushpin);
 }
-
-/* custom pin
-http://www.bingmapsportal.com/isdk/ajaxv7#Pushpins15
-map.entities.clear(); 
-var pushpinOptions = {width: null, height: null, htmlContent: "<div style='font-size:12px;font-weight:bold;border:solid 2px;background-color:LightBlue;width:100px;'>Custom Pushpin</div>"}; 
-var pushpin= new Microsoft.Maps.Pushpin(map.getCenter(), pushpinOptions);
-map.entities.push(pushpin);*/
