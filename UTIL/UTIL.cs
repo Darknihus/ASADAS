@@ -5,7 +5,7 @@ using System.Text;
 
 namespace UTIL
 {
-    class UTIL
+    public class UTIL
     {
 
         public static object ObtenerValor(object objDato)
