@@ -40,7 +40,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbonadoDAL.cs" />
+    <Compile Include="ArregloDAL.cs" />
+    <Compile Include="AsadaDAL.cs" />
+    <Compile Include="BuscarDAL.cs" />
+    <Compile Include="FacturaDAL.cs" />
+    <Compile Include="FuenteDAL.cs" />
+    <Compile Include="LecturaDAL.cs" />
+    <Compile Include="LlenarComboDAL.cs" />
+    <Compile Include="MaterialDAL.cs" />
+    <Compile Include="MedidorDAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UsuarioDAL.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
