@@ -3,7 +3,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="BodyContent" runat="server">
     <form id="Form" runat="server">
         <div id="DivRegistrar" class="Registrar" runat="server">
-            <div class="titulo">Registrar Usuario</div>
+            <div class="titulo">Registrar Abonado</div>
             <br/>
             <table>
                 <tr>
@@ -25,7 +25,7 @@
                 <tr>
                     <td colspan="2" class="tdright">
                         <asp:Button class="btn" runat="server" Text="Agregar" ID="btnRegistrar"/>
-                        <asp:Button class="btn" runat="server" Text="Cancelar" ID="btnCancelar" NavigateUrl="~/Default.aspx" />
+                        <asp:Button class="btn" runat="server" Text="Cancelar" ID="btnCancelar" NavigateUrl="/Default.aspx" />
                     </td>
                 </tr>
                 <tr>

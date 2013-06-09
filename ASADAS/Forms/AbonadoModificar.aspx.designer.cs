@@ -31,6 +31,24 @@ namespace ASADAS.Forms {
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl DivRegistrar;
         
         /// <summary>
+        /// Control ddlCedula.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList ddlCedula;
+        
+        /// <summary>
+        /// Control Buscar.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Buscar;
+        
+        /// <summary>
         /// Control txtNombre.
         /// </summary>
         /// <remarks>

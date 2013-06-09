@@ -95,7 +95,6 @@
     <Content Include="Viejos\Comprar.aspx" />
     <Content Include="Viejos\Configuracion.aspx" />
     <Content Include="Forms\Default.aspx" />
-    <Content Include="Viejos\EditarPersona.aspx" />
     <Content Include="Images\banner %281%29.png" />
     <Content Include="Images\banner %2810%29.png" />
     <Content Include="Images\banner %282%29.png" />
@@ -327,13 +326,6 @@
     </Compile>
     <Compile Include="Forms\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Viejos\EditarPersona.aspx.cs">
-      <DependentUpon>EditarPersona.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Viejos\EditarPersona.aspx.designer.cs">
-      <DependentUpon>EditarPersona.aspx</DependentUpon>
     </Compile>
     <Compile Include="Mapa.aspx.cs">
       <DependentUpon>Mapa.aspx</DependentUpon>

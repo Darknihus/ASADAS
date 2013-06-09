@@ -3,15 +3,25 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="BodyContent" runat="server">
     <form id="Form" runat="server">
         <div id="DivRegistrar" class="Registrar" runat="server">
-            <div class="titulo">Modificar Usuario</div>
+            <div class="titulo">Eliminar Abonado</div>
             <br/>
             <table>
                 <tr>
-                    <td>Nombre</td>
-                    <td><asp:DropDownList ID="ddlNombre" class="txt" runat="server" Height="20px" Width="200px" /></td>
+                    <td>Cedula</td>
+                    <td><asp:DropDownList ID="ddlCedula" class="txt" runat="server"/></td>
                 </tr>
                 <tr>
-                    <td colspan="2"><asp:Button class="btn" runat="server" Text="Eliminar" ID="btnEliminar"/></td>
+                    <td colspan="2" class="tdright"><asp:Button class="btn" runat="server" Text="Buscar" ID="Buscar"/></td>
+                </tr>
+                <tr>
+                    <td>Nombre Completo</td>
+                    <td><asp:Label ID="lblNombre" runat="server"/></td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="tdright">
+                        <asp:Button class="btn" runat="server" Text="Eliminar" ID="btnEliminar"/>
+                        <asp:Button class="btn" runat="server" Text="Cancelar" ID="btnCancelar" NavigateUrl="/Default.aspx" />
+                    </td>
                 </tr>
                  <tr>
                     <td colspan="2">
