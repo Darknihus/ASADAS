@@ -78,7 +78,6 @@
     <Content Include="Forms\ArregloModificar.aspx" />
     <Content Include="Forms\ASADAAgregar.aspx" />
     <Content Include="Forms\ASADAEliminar.aspx" />
-    <Content Include="Forms\ASADAModificar.aspx" />
     <Content Include="Forms\Factura.aspx" />
     <Content Include="Forms\FuenteAgregar.aspx" />
     <Content Include="Forms\FuenteEliminar.aspx" />
@@ -194,13 +193,6 @@
     </Compile>
     <Compile Include="Forms\ASADAEliminar.aspx.designer.cs">
       <DependentUpon>ASADAEliminar.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\ASADAModificar.aspx.cs">
-      <DependentUpon>ASADAModificar.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Forms\ASADAModificar.aspx.designer.cs">
-      <DependentUpon>ASADAModificar.aspx</DependentUpon>
     </Compile>
     <Compile Include="Forms\Factura.aspx.cs">
       <DependentUpon>Factura.aspx</DependentUpon>
