@@ -6,35 +6,38 @@ using System.Data;
 using System.Data.Sql;
 using System.Data.Common;
 using UTIL;
-using Microsoft.Practices.EnterpriseLibrary.Data;
+using Npgsql;
+
 
 namespace DAL
 {
     public class AbonadoDAL
     {
+        string messageOutput = "";
+
         //----------------------------------------------------------------------------------------------
         //Insertar Abonado
         public String AgregarAbonadoDAL(UTIL_Abonado utilAb)
         {
-            Database db = DatabaseFactory.CreateDatabase("ASADA");
-            string sqlCommand = "dbo.insert_abonado";
-            DbCommand dbCommand = db.GetStoredProcCommand(sqlCommand);
+            ConnectionBD stringconn = new ConnectionBD();
+            NpgsqlConnection conn = new NpgsqlConnection(stringconn.Postgreconnection());
+            NpgsqlCommand postCommand = new NpgsqlCommand("insert_abonado", conn);
+            postCommand.CommandType = CommandType.StoredProcedure;
 
-            using (DbConnection conn = db.CreateConnection())
-            {
-                conn.Open();
-                DbTransaction tranPersonas = conn.BeginTransaction();
-
-                try
+            try
                 {
-                    db.AddInParameter(dbCommand, "_cedula", DbType.Int16, UTIL.UTIL.ObtenerValor(utilAb.iCedula));
-                    db.AddInParameter(dbCommand, "_nombre", DbType.String, UTIL.UTIL.ObtenerValor(utilAb.sNombre));
-                    db.AddInParameter(dbCommand, "_telefono", DbType.String, UTIL.UTIL.ObtenerValor(utilAb.iTelefono));
-                    db.AddInParameter(dbCommand, "_direccion", DbType.String, UTIL.UTIL.ObtenerValor(utilAb.sDireccion));
-                    db.AddInParameter(dbCommand, "asada_local", DbType.String, UTIL.UTIL.ObtenerValor(utilAb.sAsada));
-                    db.AddOutParameter(dbCommand, "message", DbType.String, 250);
+                    postCommand.Parameters.Add("_cedula", NpgsqlTypes.NpgsqlDbType.Integer).Value = UTIL.UTIL.ObtenerValor(utilAb.iCedula);
+                    postCommand.Parameters.Add("_nombre", NpgsqlTypes.NpgsqlDbType.Text).Value = UTIL.UTIL.ObtenerValor(utilAb.sNombre);
+                    postCommand.Parameters.Add("_telefono", NpgsqlTypes.NpgsqlDbType.Integer).Value = UTIL.UTIL.ObtenerValor(utilAb.iTelefono);
+                    postCommand.Parameters.Add("_direccion", NpgsqlTypes.NpgsqlDbType.Text).Value = UTIL.UTIL.ObtenerValor(utilAb.sDireccion);
+                    postCommand.Parameters.Add("asada_local", NpgsqlTypes.NpgsqlDbType.Text).Value = UTIL.UTIL.ObtenerValor(utilAb.sAsada);
+                    NpgsqlParameter message = postCommand.Parameters.Add("message", NpgsqlTypes.NpgsqlDbType.Text, 250);
+                    message.Direction = ParameterDirection.Output;
 
-                    db.ExecuteNonQuery(dbCommand, tranPersonas);
+
+                    conn.Open();
+                    postCommand.ExecuteNonQuery();
+                    messageOutput = postCommand.Parameters["message"].Value.ToString();
                 }
 
                 catch (Exception ex)
@@ -46,9 +49,8 @@ namespace DAL
                 {
                     conn.Close();
                 }
-            }
 
-            return db.GetParameterValue(dbCommand, "message").ToString();
+            return messageOutput;
         }
 
         //----------------------------------------------------------------------------------------------

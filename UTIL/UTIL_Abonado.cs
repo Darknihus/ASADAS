@@ -22,6 +22,9 @@ namespace UTIL
         /// Obtiene o estable El numero de asada del Abonado
         public string sAsada { get; set; }
 
+        /// Obtiene o estable El Estado de asada del Abonado
+        public int iEstado { get; set; }
+
             
         //Constructor
         public UTIL_Abonado()
@@ -31,6 +34,7 @@ namespace UTIL
             this.sDireccion = string.Empty;
             this.iTelefono = -1;
             this.sAsada = string.Empty;
+            this.iEstado = -1;
         }
     }
 }

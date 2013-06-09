@@ -17,3 +17,10 @@ D:\Darknihus\Documents\GitHub\ASADAS\DDL\bin\Debug\Microsoft.Practices.Unity.Int
 D:\Darknihus\Documents\GitHub\ASADAS\DDL\obj\Debug\ResolveAssemblyReference.cache
 D:\Darknihus\Documents\GitHub\ASADAS\DDL\obj\Debug\DAL.dll
 D:\Darknihus\Documents\GitHub\ASADAS\DDL\obj\Debug\DAL.pdb
+D:\Darknihus\Documents\GitHub\ASADAS\DDL\bin\Debug\linq2db.dll
+D:\Darknihus\Documents\GitHub\ASADAS\DDL\bin\Debug\Mono.Security.dll
+D:\Darknihus\Documents\GitHub\ASADAS\DDL\bin\Debug\Npgsql.dll
+D:\Darknihus\Documents\GitHub\ASADAS\DDL\bin\Debug\policy.2.0.Npgsql.dll
+D:\Darknihus\Documents\GitHub\ASADAS\DDL\bin\Debug\Npgsql.pdb
+D:\Darknihus\Documents\GitHub\ASADAS\DDL\bin\Debug\Npgsql.xml
+D:\Darknihus\Documents\GitHub\ASADAS\DDL\bin\Debug\policy.2.0.Npgsql.config

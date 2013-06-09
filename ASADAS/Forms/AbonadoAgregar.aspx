@@ -28,7 +28,8 @@
                 </tr>           
                 <tr>
                     <td colspan="2" class="tdright">
-                        <asp:Button class="btn" runat="server" Text="Agregar" ID="btnRegistrar"/>
+                        <asp:Button class="btn" runat="server" Text="Agregar" ID="btnRegistrar" 
+                            onclick="btnRegistrar_Click"/>
                         <asp:Button class="btn" runat="server" Text="Cancelar" ID="btnCancelar" NavigateUrl="/Default.aspx" />
                     </td>
                 </tr>

@@ -26,3 +26,10 @@ D:\Darknihus\Documents\GitHub\ASADAS\ASADAS\bin\DAL.dll
 D:\Darknihus\Documents\GitHub\ASADAS\ASADAS\bin\UTIL.dll
 D:\Darknihus\Documents\GitHub\ASADAS\ASADAS\bin\DAL.pdb
 D:\Darknihus\Documents\GitHub\ASADAS\ASADAS\bin\UTIL.pdb
+D:\Darknihus\Documents\GitHub\ASADAS\ASADAS\bin\linq2db.dll
+D:\Darknihus\Documents\GitHub\ASADAS\ASADAS\bin\Mono.Security.dll
+D:\Darknihus\Documents\GitHub\ASADAS\ASADAS\bin\Npgsql.dll
+D:\Darknihus\Documents\GitHub\ASADAS\ASADAS\bin\policy.2.0.Npgsql.dll
+D:\Darknihus\Documents\GitHub\ASADAS\ASADAS\bin\Npgsql.pdb
+D:\Darknihus\Documents\GitHub\ASADAS\ASADAS\bin\Npgsql.xml
+D:\Darknihus\Documents\GitHub\ASADAS\ASADAS\bin\policy.2.0.Npgsql.config
