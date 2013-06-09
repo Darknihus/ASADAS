@@ -62,7 +62,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Css\btn.css" />
+    <Content Include="Css\csshover3.htc" />
     <Content Include="Css\Images.css" />
+    <Content Include="Css\menu-bar.css" />
     <Content Include="Css\Site.css" />
     <Content Include="Css\Styles.css" />
     <Content Include="Css\tables.css" />

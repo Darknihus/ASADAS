@@ -1,0 +1,5 @@
+D:\Darknihus\Documents\GitHub\ASADAS\BLL\bin\Debug\BLL.dll
+D:\Darknihus\Documents\GitHub\ASADAS\BLL\bin\Debug\BLL.pdb
+D:\Darknihus\Documents\GitHub\ASADAS\BLL\obj\Debug\ResolveAssemblyReference.cache
+D:\Darknihus\Documents\GitHub\ASADAS\BLL\obj\Debug\BLL.dll
+D:\Darknihus\Documents\GitHub\ASADAS\BLL\obj\Debug\BLL.pdb

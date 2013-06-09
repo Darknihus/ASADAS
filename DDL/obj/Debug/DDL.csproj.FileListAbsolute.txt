@@ -1,0 +1,5 @@
+D:\Darknihus\Documents\GitHub\ASADAS\DDL\bin\Debug\DDL.dll
+D:\Darknihus\Documents\GitHub\ASADAS\DDL\bin\Debug\DDL.pdb
+D:\Darknihus\Documents\GitHub\ASADAS\DDL\obj\Debug\ResolveAssemblyReference.cache
+D:\Darknihus\Documents\GitHub\ASADAS\DDL\obj\Debug\DDL.dll
+D:\Darknihus\Documents\GitHub\ASADAS\DDL\obj\Debug\DDL.pdb

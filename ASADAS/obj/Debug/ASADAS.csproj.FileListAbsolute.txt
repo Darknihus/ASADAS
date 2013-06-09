@@ -3,3 +3,8 @@ C:\Users\Gordo\Documents\GitHub\ASADAS\ASADAS\bin\ASADAS.pdb
 C:\Users\Gordo\Documents\GitHub\ASADAS\ASADAS\obj\Debug\ASADAS.dll
 C:\Users\Gordo\Documents\GitHub\ASADAS\ASADAS\obj\Debug\ASADAS.pdb
 C:\Users\Gordo\Documents\GitHub\ASADAS\ASADAS\obj\Debug\ASADAS.csprojResolveAssemblyReference.cache
+D:\Darknihus\Documents\GitHub\ASADAS\ASADAS\obj\Debug\ResolveAssemblyReference.cache
+D:\Darknihus\Documents\GitHub\ASADAS\ASADAS\obj\Debug\ASADAS.dll
+D:\Darknihus\Documents\GitHub\ASADAS\ASADAS\obj\Debug\ASADAS.pdb
+D:\Darknihus\Documents\GitHub\ASADAS\ASADAS\bin\ASADAS.dll
+D:\Darknihus\Documents\GitHub\ASADAS\ASADAS\bin\ASADAS.pdb
