@@ -84,7 +84,7 @@ namespace BLL
 
             try
             {
-                return BuscarDAL.BuscarMaterialesAsadaDAL(utilFa);
+                return BuscarDAL.BuscarMaterialesAsadaDAL(utilMa);
             }
             catch (Exception ex)
             {
@@ -99,7 +99,7 @@ namespace BLL
 
             try
             {
-                return BuscarDAL.BuscarStockMateriaDAL(utilFa);
+                return BuscarDAL.BuscarStockMateriaDAL(utilMa);
             }
             catch (Exception ex)
             {

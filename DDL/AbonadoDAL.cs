@@ -7,12 +7,13 @@ using System.Data.Sql;
 using System.Data.Common;
 using UTIL;
 using Microsoft.Practices.EnterpriseLibrary.Data;
+
 namespace DAL
 {
     public class AbonadoDAL
     {
         //----------------------------------------------------------------------------------------------
-        //Insertar Personas
+        //Insertar Abonado
         public String AgregarAbonadoDAL(UTIL_Abonado utilAb)
         {
             Database db = DatabaseFactory.CreateDatabase("ASADA");
@@ -28,31 +29,16 @@ namespace DAL
                 {
                     db.AddInParameter(dbCommand, "_cedula", DbType.Int16, UTIL.UTIL.ObtenerValor(utilAb.iCedula));
                     db.AddInParameter(dbCommand, "_nombre", DbType.String, UTIL.UTIL.ObtenerValor(utilAb.sNombre));
-                    db.AddInParameter(dbCommand, "_telefono", DbType.String, UTIL.UTIL.ObtenerValor(utilAb.sApellido1));
-                    db.AddInParameter(dbCommand, "_direccion", DbType.String, UTIL.UTIL.ObtenerValor(utilAb.sApellido2));
-                    db.AddInParameter(dbCommand, "asada_local", DbType.String, UTIL.UTIL.ObtenerValor(utilAb.sTelefono));
-                    db.AddOutParameter(dbCommand, "@strMessage", DbType.String, 250);
+                    db.AddInParameter(dbCommand, "_telefono", DbType.String, UTIL.UTIL.ObtenerValor(utilAb.iTelefono));
+                    db.AddInParameter(dbCommand, "_direccion", DbType.String, UTIL.UTIL.ObtenerValor(utilAb.sDireccion));
+                    db.AddInParameter(dbCommand, "asada_local", DbType.String, UTIL.UTIL.ObtenerValor(utilAb.sAsada));
+                    db.AddOutParameter(dbCommand, "message", DbType.String, 250);
 
                     db.ExecuteNonQuery(dbCommand, tranPersonas);
-
-                    if ((db.GetParameterValue(dbCommand, "@strMessage").ToString().Length) > 0)
-                        throw new Exception(db.GetParameterValue(dbCommand, "@strMessage").ToString());
-
-                    if (op == 1)
-                    {
-                        InsertarFuncioDAL(utilF, utilU, tranPersonas, db);
-                        tranPersonas.Commit();
-                    }
-                    else
-                    {
-                        InsertarUsuarioDALL(utilU, tranPersonas, db);
-                        tranPersonas.Commit();
-                    }
                 }
 
                 catch (Exception ex)
                 {
-                    tranPersonas.Rollback();
                     return ex.Message;
                     throw new Exception(ex.Message);
                 }
@@ -61,6 +47,16 @@ namespace DAL
                     conn.Close();
                 }
             }
-            return "true";
+
+            return db.GetParameterValue(dbCommand, "message").ToString();
         }
+
+        //----------------------------------------------------------------------------------------------
+        //Eliminar Abonado
+        public String EliminarAbonadoDAL(UTIL_Abonado utilAb){ return ""; }
+            
+        //----------------------------------------------------------------------------------------------
+        //Modificar Abonado
+        public String ModificarAbonadoDAL(UTIL_Abonado utilAb) { return ""; }
+    }
 }

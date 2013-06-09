@@ -15,7 +15,7 @@ namespace BLL
 
         //----------------------------------------------------------------------------------------------
         //Agrega el registro de un Materia
-        public String AgregarMateriaBLL(String asada, String nombre, int stock)
+        public String AgregarMaterialBLL(String asada, String nombre, int stock)
         {
             utilMa.sNombre = asada;
             utilMa.sNombre = nombre;
@@ -23,7 +23,7 @@ namespace BLL
 
             try
             {
-                return MateriaDAL.AgregarMateriaDAL(utilMa);
+                return MaterialDAL.AgregarMaterialDAL(utilMa);
             }
             catch (Exception ex)
             {
@@ -34,14 +34,14 @@ namespace BLL
 
         //----------------------------------------------------------------------------------------------
         //Modifica el registro de un Materia
-        public String AumentarMateriaBLL(String nombre, int stock)
+        public String AumentarMaterialBLL(String nombre, int stock)
         {
             utilMa.sNombre = nombre;
             utilMa.iStock = stock;
 
             try
             {
-                return MateriaDAL.EliminarMateriaDAL(utilMa);
+                return MaterialDAL.EliminarMaterialDAL(utilMa);
             }
             catch (Exception ex)
             {
