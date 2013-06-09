@@ -58,13 +58,13 @@ namespace ASADAS.Forms {
         protected global::System.Web.UI.WebControls.Label lblNombre;
         
         /// <summary>
-        /// Control txtDeuda.
+        /// Control lblDeuda.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtDeuda;
+        protected global::System.Web.UI.WebControls.Label lblDeuda;
         
         /// <summary>
         /// Control btnEliminar.

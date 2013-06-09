@@ -11,11 +11,8 @@
                     <td><asp:Label ID="lblFecha" class="txt" runat="server"/></td>
                 </tr>
                <tr>
-                    <td>Cedula</td>
-                    <td><asp:DropDownList ID="ddlCedula" class="txt" runat="server"/></td>
-                </tr>
-                <tr>
-                    <td colspan="2" class="tdright"><asp:Button class="btn" runat="server" Text="Buscar" ID="Buscar"/></td>
+                    <td>Medidor</td>
+                    <td><asp:DropDownList ID="ddlMedidor" class="txt" runat="server"/></td>
                 </tr>
                 <tr>
                     <td>Lectura</td>

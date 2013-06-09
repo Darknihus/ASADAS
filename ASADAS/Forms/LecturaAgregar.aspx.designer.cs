@@ -40,22 +40,13 @@ namespace ASADAS.Forms {
         protected global::System.Web.UI.WebControls.Label lblFecha;
         
         /// <summary>
-        /// Control ddlCedula.
+        /// Control ddlMedidor.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlCedula;
-        
-        /// <summary>
-        /// Control Buscar.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Buscar;
+        protected global::System.Web.UI.WebControls.DropDownList ddlMedidor;
         
         /// <summary>
         /// Control txtLectura.

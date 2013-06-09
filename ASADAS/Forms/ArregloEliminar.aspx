@@ -19,7 +19,7 @@
                 </tr>
                 <tr>
                     <td>Deuda</td>
-                    <td><asp:TextBox ID="txtDeuda" class="txt" runat="server"/></td>
+                    <td><asp:Label ID="lblDeuda" class="txt" runat="server"/></td>
                 </tr>
                 <tr>
                     <td colspan="2" class="tdright">

@@ -7,17 +7,8 @@
 	color: #00366C;
 }
 
-.inicio {
-	width:100%;
-	height:40px;
-	background: -webkit-linear-gradient(rgb(228, 230, 253), rgb(0, 28, 138));
-	padding-top:2px;
-	float: left;
-	
-}
-
 .login {
-	top: -71px;
+	top: -93px;
 	float:right;
 	margin-right:10px;
 	position:relative;
@@ -34,8 +25,8 @@
 }
 
 .body {
-	width:960px ;
-	height:900px;
+	width:1240px;
+	height:1240px;
 	background-color:white;
 	margin-right:auto;
 	margin-left:auto;

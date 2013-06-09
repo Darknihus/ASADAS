@@ -82,40 +82,19 @@
     <Content Include="Forms\FuenteAgregar.aspx" />
     <Content Include="Forms\FuenteEliminar.aspx" />
     <Content Include="Forms\LecturaAgregar.aspx" />
-    <Content Include="Forms\LecturaEliminar.aspx" />
+    <Content Include="Forms\LecturaModificar.aspx" />
     <Content Include="Forms\MaterialAgregar.aspx" />
-    <Content Include="Forms\MaterialEliminar.aspx" />
     <Content Include="Forms\MaterialModificar.aspx" />
     <Content Include="Forms\MedidorAgregar.aspx" />
     <Content Include="Forms\MedidorEliminar.aspx" />
     <Content Include="Forms\UsuarioAgregar.aspx" />
     <Content Include="Forms\UsuarioEliminar.aspx" />
     <Content Include="Forms\UsuarioModificar.aspx" />
-    <Content Include="Viejos\AgregarLibro.aspx" />
-    <Content Include="Viejos\Buscar.aspx" />
-    <Content Include="Viejos\Comprar.aspx" />
     <Content Include="Forms\Default.aspx" />
-    <Content Include="Images\banner %281%29.png" />
-    <Content Include="Images\banner %2810%29.png" />
-    <Content Include="Images\banner %282%29.png" />
-    <Content Include="Images\banner %283%29.png" />
-    <Content Include="Images\banner %284%29.png" />
-    <Content Include="Images\banner %285%29.png" />
-    <Content Include="Images\banner %286%29.png" />
-    <Content Include="Images\banner %287%29.png" />
-    <Content Include="Images\banner %288%29.png" />
-    <Content Include="Images\banner %289%29.png" />
-    <Content Include="Images\banner.png" />
     <Content Include="Images\eliminar.png" />
-    <Content Include="Images\Empresa.png" />
-    <Content Include="Images\Empresa2.png" />
     <Content Include="Images\error.png" />
     <Content Include="Images\fondo2.PNG" />
-    <Content Include="Images\head.jpg" />
     <Content Include="Images\head2.jpg" />
-    <Content Include="Images\me-registro-btn.gif" />
-    <Content Include="Images\Usuario.png" />
-    <Content Include="Images\Usuario2.png" />
     <Content Include="Images\water.png" />
     <Content Include="Mapa.aspx" />
     <Content Include="Scripts\BingMap.js" />
@@ -222,12 +201,12 @@
     <Compile Include="Forms\LecturaAgregar.aspx.designer.cs">
       <DependentUpon>LecturaAgregar.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Forms\LecturaEliminar.aspx.cs">
-      <DependentUpon>LecturaEliminar.aspx</DependentUpon>
+    <Compile Include="Forms\LecturaModificar.aspx.cs">
+      <DependentUpon>LecturaModificar.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Forms\LecturaEliminar.aspx.designer.cs">
-      <DependentUpon>LecturaEliminar.aspx</DependentUpon>
+    <Compile Include="Forms\LecturaModificar.aspx.designer.cs">
+      <DependentUpon>LecturaModificar.aspx</DependentUpon>
     </Compile>
     <Compile Include="Forms\MaterialAgregar.aspx.cs">
       <DependentUpon>MaterialAgregar.aspx</DependentUpon>
@@ -235,13 +214,6 @@
     </Compile>
     <Compile Include="Forms\MaterialAgregar.aspx.designer.cs">
       <DependentUpon>MaterialAgregar.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\MaterialEliminar.aspx.cs">
-      <DependentUpon>MaterialEliminar.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Forms\MaterialEliminar.aspx.designer.cs">
-      <DependentUpon>MaterialEliminar.aspx</DependentUpon>
     </Compile>
     <Compile Include="Forms\MaterialModificar.aspx.cs">
       <DependentUpon>MaterialModificar.aspx</DependentUpon>
@@ -284,27 +256,6 @@
     </Compile>
     <Compile Include="Forms\UsuarioModificar.aspx.designer.cs">
       <DependentUpon>UsuarioModificar.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Viejos\AgregarLibro.aspx.cs">
-      <DependentUpon>AgregarLibro.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Viejos\AgregarLibro.aspx.designer.cs">
-      <DependentUpon>AgregarLibro.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Viejos\Buscar.aspx.cs">
-      <DependentUpon>Buscar.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Viejos\Buscar.aspx.designer.cs">
-      <DependentUpon>Buscar.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Viejos\Comprar.aspx.cs">
-      <DependentUpon>Comprar.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Viejos\Comprar.aspx.designer.cs">
-      <DependentUpon>Comprar.aspx</DependentUpon>
     </Compile>
     <Compile Include="Forms\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>

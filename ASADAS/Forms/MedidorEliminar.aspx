@@ -4,7 +4,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="BodyContent" runat="server">
     <form id="Form" runat="server">
         <div id="DivRegistrar" class="Registrar" runat="server">
-            <div class="titulo">Eliminar Medidor</div>
+            <div class="titulo">Cambiar el estado del Medidor</div>
             <br/>
             <table>
                 <tr>

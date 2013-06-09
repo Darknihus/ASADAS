@@ -1,12 +1,13 @@
 ﻿.body {	
 	font-family: "Century Gothic", Verdana, Arial, Sans-Serif;
-	font-size: 62.5%;
+	font-size: 70%;
 	position: relative;
 	behavior: url("~/Css/csshover3.htc"); 
 }
 #content {
+    cursor: pointer;
 	position: relative;	
-
+    margin-left:20px;
 	margin-bottom: 100px;
 	width: 950px;
 	top: 80px;

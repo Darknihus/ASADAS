@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace ASADAS.Forms
 {
-    public partial class LecturaEliminar : System.Web.UI.Page
+    public partial class LecturaModificar : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

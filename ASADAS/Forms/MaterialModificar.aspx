@@ -18,6 +18,9 @@
                     <td><asp:DropDownList ID="ddlNombre" class="txt" runat="server"/></td>
                 </tr>
                 <tr>
+                    <td colspan="2" class="tdright"><asp:Button class="btn" runat="server" Text="Buscar" ID="Buscar2"/></td>
+                </tr>
+                <tr>
                     <td>Stock</td>
                     <td><asp:TextBox ID="txtStock" class="txt" runat="server" placeholder="506-4354-4323"/></td>
                 </tr>          

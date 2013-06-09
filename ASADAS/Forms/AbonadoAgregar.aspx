@@ -19,6 +19,10 @@
                     <td><asp:TextBox ID="txtTelefono" class="txt" runat="server" placeholder="506-4354-4323"/></td>
                 </tr>
                 <tr>
+                    <td>ASADA</td>
+                    <td><asp:DropDownList ID="dllASADA" class="txt" runat="server"/></td>
+                </tr>
+                <tr>
                     <td>Dirección</td>
                     <td><asp:TextBox ID="txtDireccion" class="txta" runat="server" TextMode="MultiLine"/></td>
                 </tr>           
