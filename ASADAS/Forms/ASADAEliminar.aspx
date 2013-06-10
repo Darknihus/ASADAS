@@ -1,9 +1,13 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ASADAEliminar.aspx.cs" Inherits="ASADAS.Forms.ASADAEliminar" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
+     <script src="Scripts/BingMap.js" type="text/javascript"></script>
+     <script type="text/javascript" src="http://ecn.dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=7.0&mkt=en-gb"></script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="BodyContent" runat="server">
     <form id="Form" runat="server">
+        
         <div id="DivRegistrar" class="Registrar" runat="server">
+
             <div class="titulo">Eliminar ASADA</div>
             <br/>
             <table>

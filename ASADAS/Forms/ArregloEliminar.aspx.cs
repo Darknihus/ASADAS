@@ -24,13 +24,13 @@ namespace ASADAS.Forms
         protected void Buscar_Click(object sender, EventArgs e)
         {
             //no sabemos que devuelve
-            lblNombre.Text = BuscarBLL.BuscarAbonadoBLL(Convert.ToInt32(ddlCedula.Text));
-            lblDeuda.Text = BuscarBLL.BuscarArregloBLL(Convert.ToInt32(ddlCedula.Text));
+            lblNombre.Text = BuscarBLL.BuscarAbonadoBLL(Convert.ToInt32(ddlCedula.SelectedItem));
+            lblDeuda.Text = BuscarBLL.BuscarArregloBLL(Convert.ToInt32(ddlCedula.SelectedItem));
         }
 
         protected void btnEliminar_Click(object sender, EventArgs e)
         {
-            lblError.Text = ArregloBLL.EliminarArregloBLL(Convert.ToInt32(ddlCedula.Text));
+            lblError.Text = ArregloBLL.EliminarArregloBLL(Convert.ToInt32(ddlCedula.SelectedItem));
         }
 
         protected void btnCancelar_Click(object sender, EventArgs e)

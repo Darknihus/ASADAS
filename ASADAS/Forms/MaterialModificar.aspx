@@ -11,14 +11,14 @@
                     <td><asp:DropDownList ID="ddlASADA" class="txt" runat="server"/></td>
                 </tr>
                 <tr>
-                    <td colspan="2" class="tdright"><asp:Button class="btn" runat="server" Text="Buscar" ID="Buscar"/></td>
+                    <td colspan="2" class="tdright"><asp:Button class="btn" runat="server" Text="Buscar" ID="Buscar" OnClick="Buscar_Click"/></td>
                 </tr>
                  <tr>
                     <td>Nombre</td>
                     <td><asp:DropDownList ID="ddlNombre" class="txt" runat="server"/></td>
                 </tr>
                 <tr>
-                    <td colspan="2" class="tdright"><asp:Button class="btn" runat="server" Text="Buscar" ID="Buscar2"/></td>
+                    <td colspan="2" class="tdright"><asp:Button class="btn" runat="server" Text="Buscar" ID="Buscar2" OnClick="Buscar2_Click"/></td>
                 </tr>
                 <tr>
                     <td>Stock</td>
@@ -26,8 +26,8 @@
                 </tr>          
                 <tr>
                     <td colspan="2" class="tdright">
-                        <asp:Button class="btn" runat="server" Text="Modificar" ID="btnRegistrar"/>
-                        <asp:Button class="btn" runat="server" Text="Cancelar" ID="btnCancelar" NavigateUrl="/Default.aspx" />
+                        <asp:Button class="btn" runat="server" Text="Modificar" ID="btnRegistrar" OnClick="btnRegistrar_Click"/>
+                        <asp:Button class="btn" runat="server" Text="Cancelar" ID="btnCancelar" NavigateUrl="/Default.aspx" OnClick="btnCancelar_Click" />
                     </td>
                 </tr>
                 <tr>

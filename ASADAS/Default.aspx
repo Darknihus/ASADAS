@@ -5,7 +5,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
     <title></title>    
      <link href="Css/Site.css" rel="stylesheet" />
      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -16,7 +16,8 @@
     <div id="myMap" class="map"></div><br/>
     <div>
         <b>Click the map to add a pushpin at that point.</b> 
-        <input id='textBox' type="text" style="width:250px;"/>
+        <asp:Label runat="server" id='textBox' style="width:250px;"/>
+       <!-- <input id='textBox' type="text" style="width:250px;"/>-->
     </div>
 </body>
 </html>

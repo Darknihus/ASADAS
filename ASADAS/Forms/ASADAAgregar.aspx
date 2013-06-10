@@ -1,5 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ASADAAgregar.aspx.cs" Inherits="ASADAS.Forms.ASADAAgregar" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
+       
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="BodyContent" runat="server">
     <form id="Form" runat="server">
@@ -13,14 +14,15 @@
                 </tr>
                 <tr>
                     <td colspan="2">
-
-
+                       <div id="myMap" class="map"></div>
+                        <br /><br />
+                           
                     </td>
                 </tr>
                 <tr>
                     <td colspan="2" class="tdright">
                         <asp:Button class="btn" runat="server" Text="Agregar" ID="btnAgregar" OnClick="btnAgregar_Click"/>
-                        <asp:Button class="btn" runat="server" Text="Cancelar" ID="btnCancelar" NavigateUrl="~/Default.aspx" OnClick="btnCancelar_Click" />
+                        <asp:Button class="btn" runat="server" Text="Cancelar" ID="btnCancelar" OnClick="btnCancelar_Click" />
                     </td>
                 </tr>
                 <tr>

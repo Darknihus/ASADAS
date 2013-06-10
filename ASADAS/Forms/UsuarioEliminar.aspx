@@ -13,8 +13,8 @@
                 </tr>
                 <tr>
                     <td colspan="2" class="tdright">
-                        <asp:Button class="btn" runat="server" Text="Eliminar" ID="btnEliminar"/>
-                        <asp:Button class="btn" runat="server" Text="Cancelar" ID="btnCancelar" NavigateUrl="/Default.aspx" />
+                        <asp:Button class="btn" runat="server" Text="Eliminar" ID="btnEliminar" OnClick="btnEliminar_Click"/>
+                        <asp:Button class="btn" runat="server" Text="Cancelar" ID="btnCancelar" NavigateUrl="/Default.aspx" OnClick="btnCancelar_Click" />
                     </td>
                 </tr>
                  <tr>
