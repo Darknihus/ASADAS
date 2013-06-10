@@ -31,12 +31,6 @@
                 </tr>
             </table>
             <br />
-            <div runat="server">
-                <asp:GridView ID="gvBuscar" runat="server"/>
-                <br/>
-                <asp:Image ID="imgError2" Visible="false" class="imgError" runat="server" ImageUrl="/Images/error.png" />
-                <asp:Label ID="lblError2" class="error" runat="server" Text="" />                 
-            </div> 
         </div>
     </form>
 </asp:Content>

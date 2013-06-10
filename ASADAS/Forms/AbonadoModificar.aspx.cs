@@ -12,22 +12,21 @@ namespace ASADAS.Forms
     {
         AbonadoBLL AbonadoBLL = new AbonadoBLL();
         BuscarBLL BuscarBLL = new BuscarBLL();
+        LlenarComboBLL LlenarComboBLL = new LlenarComboBLL();
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!Page.IsPostBack)
             {
-                //llenar ddlCedula
+                ddlCedula.DataSource = LlenarComboBLL.LlenarCedulasBLL();
+                ddlCedula.DataBind();
             }
         }
 
         protected void Buscar_Click(object sender, EventArgs e)
         {
-            //no se sabe como vienen estos datos
-<<<<<<< HEAD
-            txtNombre.Text = BuscarBLL.BuscarAbonadoBLL(Convert.ToInt32(ddlCedula.Text)); 
-=======
-            txtNombre.Text = BuscarBLL.BuscarAbonadoBLL(Convert.ToInt32(ddlCedula.SelectedItem)); 
->>>>>>> conexion
+            txtNombre.Text = BuscarBLL.BuscarAbonadoBLL(Convert.ToInt32(ddlCedula.Text)).Rows[0]["Nombre"].ToString();
+            txtTelefono.Text = BuscarBLL.BuscarAbonadoBLL(Convert.ToInt32(ddlCedula.SelectedItem)).Rows[0]["Telefono"].ToString();
+            txtDireccion.Text = BuscarBLL.BuscarAbonadoBLL(Convert.ToInt32(ddlCedula.SelectedItem)).Rows[0]["Direccion"].ToString();
         }
 
         protected void btnModificar_Click1(object sender, EventArgs e)
