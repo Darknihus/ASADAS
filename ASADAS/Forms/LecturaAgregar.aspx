@@ -27,7 +27,7 @@
                 <tr>
                     <td colspan="2">
                         <asp:Image ID="imgError" Visible="false" class="imgError" runat="server" ImageUrl="/Images/error.png" />
-                        <asp:Label ID="msgError" class="error" runat="server" Text="" />
+                        <asp:Label ID="lblError" class="error" runat="server" Text="" />
                     </td>
                 </tr>
             </table>

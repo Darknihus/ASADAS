@@ -20,7 +20,7 @@
                 </tr>
                 <tr>
                     <td>ASADA</td>
-                    <td><asp:DropDownList ID="dllASADA" class="txt" runat="server"/></td>
+                    <td><asp:DropDownList ID="ddlASADA" class="txt" runat="server"/></td>
                 </tr>
                 <tr>
                     <td>Dirección</td>
@@ -30,13 +30,13 @@
                     <td colspan="2" class="tdright">
                         <asp:Button class="btn" runat="server" Text="Agregar" ID="btnRegistrar" 
                             onclick="btnRegistrar_Click"/>
-                        <asp:Button class="btn" runat="server" Text="Cancelar" ID="btnCancelar" NavigateUrl="/Default.aspx" />
+                        <asp:Button class="btn" runat="server" Text="Cancelar" ID="btnCancelar" NavigateUrl="/Default.aspx" OnClick="btnCancelar_Click" />
                     </td>
                 </tr>
                 <tr>
                     <td colspan="2">
                         <asp:Image ID="imgError" Visible="false" class="imgError" runat="server" ImageUrl="/Images/error.png" />
-                        <asp:Label ID="msgError" class="error" runat="server" Text="" />
+                        <asp:Label ID="lblError" class="error" runat="server" Text="" />
                     </td>
                 </tr>
             </table>

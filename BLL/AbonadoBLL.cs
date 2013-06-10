@@ -18,11 +18,11 @@ namespace BLL
         //Agrega el registro de un Abonado
         public String AgregarAbonadoBLL(String nombre, int cedula, int telefono, String direccion, String asada)
         {
-            utilAb.sAsada = asada;
             utilAb.sNombre = nombre;
             utilAb.iCedula = cedula;
             utilAb.iTelefono = telefono;
             utilAb.sDireccion = direccion;
+            utilAb.sAsada = asada;
 
             try
             {

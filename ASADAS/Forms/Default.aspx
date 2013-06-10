@@ -10,13 +10,13 @@
                         <asp:Label class="" ID="LblLogin" Text="" runat="server" Visible="true"></asp:Label>
                          <br /><br />
                         <asp:Image ID="imgError" Visible="false" class="imgError" runat="server" ImageUrl="/Images/error1.png" />
-                        <asp:Label ID="msgError" class="error" runat="server" Text="" />
+                        <asp:Label ID="lblError" class="error" runat="server" Text="" />
                     </div>
                 </div>
         <div class="registrar">
     <div class="titulo">Libros</div><br/>
                 <asp:Image ID="imgError2" Visible="false" class="imgError" runat="server" ImageUrl="/Images/error.png" />
-                    &nbsp;<asp:Label ID="msgError2" class="error" runat="server" Text="" />
+                    &nbsp;<asp:Label ID="lblError2" class="error" runat="server" Text="" />
         <br/>
             <asp:GridView ID="gvLibros" runat="server">
             </asp:GridView>

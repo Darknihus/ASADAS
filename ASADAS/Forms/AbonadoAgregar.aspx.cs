@@ -11,15 +11,22 @@ namespace ASADAS.Forms
     public partial class AbonadoAgregar : System.Web.UI.Page
     {
         AbonadoBLL AbonadoBLL = new AbonadoBLL();
-
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (!Page.IsPostBack) 
+            {
+                //llenar ddlASADA
+            }
         }
 
         protected void btnRegistrar_Click(object sender, EventArgs e)
         {
-          AbonadoBLL.AgregarAbonadoBLL( "",  0, 0, "", "");
+          AbonadoBLL.AgregarAbonadoBLL(txtNombre.Text, Convert.ToInt32(txtCedula.Text), Convert.ToInt32(txtTelefono.Text), txtDireccion.Text, ddlASADA.Text);
+        }
+
+        protected void btnCancelar_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Default.aspx");
         }
     }
 }

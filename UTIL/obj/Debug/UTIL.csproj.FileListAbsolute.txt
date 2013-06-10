@@ -10,3 +10,15 @@ D:\Darknihus\Documents\GitHub\ASADAS\UTIL\bin\Debug\policy.2.0.Npgsql.dll
 D:\Darknihus\Documents\GitHub\ASADAS\UTIL\bin\Debug\Npgsql.pdb
 D:\Darknihus\Documents\GitHub\ASADAS\UTIL\bin\Debug\Npgsql.xml
 D:\Darknihus\Documents\GitHub\ASADAS\UTIL\bin\Debug\policy.2.0.Npgsql.config
+C:\Users\Gordo\Documents\GitHub\ASADAS\UTIL\bin\Debug\UTIL.dll
+C:\Users\Gordo\Documents\GitHub\ASADAS\UTIL\bin\Debug\UTIL.pdb
+C:\Users\Gordo\Documents\GitHub\ASADAS\UTIL\bin\Debug\linq2db.dll
+C:\Users\Gordo\Documents\GitHub\ASADAS\UTIL\bin\Debug\Mono.Security.dll
+C:\Users\Gordo\Documents\GitHub\ASADAS\UTIL\bin\Debug\Npgsql.dll
+C:\Users\Gordo\Documents\GitHub\ASADAS\UTIL\bin\Debug\policy.2.0.Npgsql.dll
+C:\Users\Gordo\Documents\GitHub\ASADAS\UTIL\bin\Debug\Npgsql.pdb
+C:\Users\Gordo\Documents\GitHub\ASADAS\UTIL\bin\Debug\Npgsql.xml
+C:\Users\Gordo\Documents\GitHub\ASADAS\UTIL\bin\Debug\policy.2.0.Npgsql.config
+C:\Users\Gordo\Documents\GitHub\ASADAS\UTIL\obj\Debug\UTIL.csprojResolveAssemblyReference.cache
+C:\Users\Gordo\Documents\GitHub\ASADAS\UTIL\obj\Debug\UTIL.dll
+C:\Users\Gordo\Documents\GitHub\ASADAS\UTIL\obj\Debug\UTIL.pdb
