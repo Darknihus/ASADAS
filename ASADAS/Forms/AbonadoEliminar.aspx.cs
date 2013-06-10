@@ -23,7 +23,7 @@ namespace ASADAS.Forms
         protected void Buscar_Click(object sender, EventArgs e)
         {
             //no sabemos que devuelve
-            lblNombre.Text = BuscarBLL.BuscarAbonadoBLL(Convert.ToInt32(ddlCedula.Text));
+            lblNombre.Text = BuscarBLL.BuscarAbonadoBLL(Convert.ToInt32(ddlCedula.Text)).Rows[0]["nombre"].ToString();
         }
 
         protected void btnEliminar_Click(object sender, EventArgs e)

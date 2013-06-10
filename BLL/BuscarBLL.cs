@@ -18,7 +18,7 @@ namespace BLL
         UTIL_Factura utilFa = new UTIL_Factura();
         UTIL_Material utilMa = new UTIL_Material();
 
-        public String BuscarAbonadoBLL(int Cedula)
+        public DataTable BuscarAbonadoBLL(int Cedula)
         {
             utilAb.iCedula = Cedula;
 
@@ -28,12 +28,11 @@ namespace BLL
             }
             catch (Exception ex)
             {
-                return ex.Message;
                 throw new Exception(ex.Message);
             }
         }
 
-        public String BuscarArregloBLL(int Cedula)
+        public DataTable BuscarArregloBLL(int Cedula)
         {
             utilAr.iCedula = Cedula;
 
@@ -43,12 +42,11 @@ namespace BLL
             }
             catch (Exception ex)
             {
-                return ex.Message;
                 throw new Exception(ex.Message);
             }
         }
 
-        public String BuscarLecturaBLL(int medidor)
+        public DataTable BuscarLecturaBLL(int medidor)
         {
             utilLe.iMedidor = medidor;
 
@@ -58,12 +56,11 @@ namespace BLL
             }
             catch (Exception ex)
             {
-                return ex.Message;
                 throw new Exception(ex.Message);
             }
         }
 
-        public String BuscarFacturaBLL(int cedula)
+        public DataTable BuscarFacturaBLL(int cedula)
         {
             utilFa.iCedula = cedula;
 
@@ -73,12 +70,11 @@ namespace BLL
             }
             catch (Exception ex)
             {
-                return ex.Message;
                 throw new Exception(ex.Message);
             }
         }
 
-        public String BuscarMaterialesAsadaBLL(String asada)
+        public DataTable BuscarMaterialesAsadaBLL(String asada)
         {
             utilMa.sAsada = asada;
 
@@ -88,14 +84,14 @@ namespace BLL
             }
             catch (Exception ex)
             {
-                return ex.Message;
                 throw new Exception(ex.Message);
             }
         }
 
-        public String BuscarStockMateriaBLL(String material)
+        public String BuscarStockMateriaBLL(String material, String asada)
         {
             utilMa.sNombre = material;
+            utilMa.sAsada = asada;
 
             try
             {

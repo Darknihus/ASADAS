@@ -100,6 +100,7 @@
     <Content Include="Forms\MaterialModificar.aspx" />
     <Content Include="Forms\MedidorAgregar.aspx" />
     <Content Include="Forms\MedidorEliminar.aspx" />
+    <Content Include="Forms\PRUEBAS_BUSCAR.aspx" />
     <Content Include="Forms\UsuarioAgregar.aspx" />
     <Content Include="Forms\UsuarioEliminar.aspx" />
     <Content Include="Forms\UsuarioModificar.aspx" />
@@ -246,6 +247,13 @@
     <Compile Include="Forms\MedidorEliminar.aspx.designer.cs">
       <DependentUpon>MedidorEliminar.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Forms\PRUEBAS_BUSCAR.aspx.cs">
+      <DependentUpon>PRUEBAS_BUSCAR.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\PRUEBAS_BUSCAR.aspx.designer.cs">
+      <DependentUpon>PRUEBAS_BUSCAR.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Forms\UsuarioAgregar.aspx.cs">
       <DependentUpon>UsuarioAgregar.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -298,9 +306,6 @@
       <Project>{7D50CF3E-9F2E-4D53-AE28-48F6666A50B4}</Project>
       <Name>BLL</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="packages.config" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
