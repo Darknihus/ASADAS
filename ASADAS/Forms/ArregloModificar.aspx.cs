@@ -13,19 +13,20 @@ namespace ASADAS.Forms
     {
         ArregloBLL ArregloBLL = new ArregloBLL();
         BuscarBLL BuscarBLL = new BuscarBLL();
+        LlenarComboBLL LlenarComboBLL = new LlenarComboBLL();
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!Page.IsPostBack)
             {
-                //llenar ddlCedula
+                ddlCedula.DataSource = LlenarComboBLL.LlenarCedulasBLL();
+                ddlCedula.DataBind();
             }
         }
         protected void Buscar_Click(object sender, EventArgs e)
         {
-            //no sabemos que devuelve
-            lblNombre.Text = BuscarBLL.BuscarAbonadoBLL(Convert.ToInt32(ddlCedula.SelectedItem));
-            txtAbono.Text = BuscarBLL.BuscarArregloBLL(Convert.ToInt32(ddlCedula.SelectedItem));
-            txtDeuda.Text = BuscarBLL.BuscarArregloBLL(Convert.ToInt32(ddlCedula.SelectedItem));
+            lblNombre.Text = BuscarBLL.BuscarAbonadoBLL(Convert.ToInt32(ddlCedula.SelectedItem)).Rows[0]["Nombre"].ToString();
+            txtAbono.Text = BuscarBLL.BuscarArregloBLL(Convert.ToInt32(ddlCedula.SelectedItem)).Rows[0]["Abono"].ToString();
+            txtDeuda.Text = BuscarBLL.BuscarArregloBLL(Convert.ToInt32(ddlCedula.SelectedItem)).Rows[0]["Monto"].ToString();
         }
         protected void btnAgregar_Click(object sender, EventArgs e)
         {
