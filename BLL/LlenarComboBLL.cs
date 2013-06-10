@@ -12,7 +12,7 @@ namespace BLL
     {
         LlenarComboDAL LlenarComboDAL = new LlenarComboDAL();
 
-        public String LlenarAsadasBLL()
+        public DataTable LlenarAsadasBLL()
         {
             try
             {
@@ -20,12 +20,11 @@ namespace BLL
             }
             catch (Exception ex)
             {
-                return ex.Message;
                 throw new Exception(ex.Message);
             }
         }
 
-        public String LlenarCedulasBLL()
+        public DataTable LlenarCedulasBLL()
         {
             try
             {
@@ -33,12 +32,11 @@ namespace BLL
             }
             catch (Exception ex)
             {
-                return ex.Message;
                 throw new Exception(ex.Message);
             }
         }
 
-        public String LlenarMedidorBLL()
+        public DataTable LlenarMedidorBLL()
         {
             try
             {
@@ -46,7 +44,6 @@ namespace BLL
             }
             catch (Exception ex)
             {
-                return ex.Message;
                 throw new Exception(ex.Message);
             }
         }
