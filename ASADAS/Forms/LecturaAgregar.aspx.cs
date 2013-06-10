@@ -11,13 +11,14 @@ namespace ASADAS.Forms
     public partial class LecturaAgregar : System.Web.UI.Page
     {
         LecturaBLL LecturaBLL = new LecturaBLL();
-        BuscarBLL BuscarBLL = new BuscarBLL();
+        LlenarComboBLL LlenarComboBLL = new LlenarComboBLL();
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!Page.IsPostBack)
             {
                 lblFecha.Text = DateTime.Now.ToString("dd/MM/yyyy");
-                //llenar ddlMedidor
+                ddlMedidor.DataSource = LlenarComboBLL.LlenarMedidorBLL();
+                ddlMedidor.DataBind();
             }
         }
 

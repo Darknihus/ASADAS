@@ -12,9 +12,15 @@ namespace ASADAS.Forms
     {
         UsuarioBLL UsuarioBLL = new UsuarioBLL();
         BuscarBLL BuscarBLL = new BuscarBLL();
+        LlenarComboBLL LlenarComboBLL = new LlenarComboBLL();
         protected void Page_Load(object sender, EventArgs e)
         {
-            //llenar combos
+            if (!Page.IsPostBack)
+            {
+                //ddlNombre.DataSource = LlenarComboBLL.LlenarUsuariosBLL();
+                //ddlNombre.DataBind();
+
+            }
         }
 
         protected void btnEliminar_Click(object sender, EventArgs e)

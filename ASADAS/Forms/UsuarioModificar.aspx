@@ -12,7 +12,12 @@
                 </tr>
                 <tr>
                     <td>Permisos</td>
-                    <td><asp:DropDownList ID="ddlPermisos" class="txt" runat="server"/></td>
+                    <td><asp:DropDownList ID="ddlPermisos" class="txt" runat="server">
+                        <asp:ListItem Value="1">Consultor</asp:ListItem>
+                        <asp:ListItem Value="2">Modificador</asp:ListItem>
+                        <asp:ListItem Value="3">Administrador</asp:ListItem>
+                        </asp:DropDownList>
+                    </td>
                 </tr>
                  <tr>
                     <td colspan="2" class="tdright">

@@ -12,22 +12,25 @@ namespace ASADAS.Forms
     {
         MaterialBLL MaterialBLL = new MaterialBLL();
         BuscarBLL BuscarBLL = new BuscarBLL();
+        LlenarComboBLL LlenarComboBLL = new LlenarComboBLL();
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!Page.IsPostBack)
             {
-                //llenar ddlASADA
+                ddlASADA.DataSource = LlenarComboBLL.LlenarMedidorBLL();
+                ddlASADA.DataBind();
             }
         }
 
         protected void Buscar_Click(object sender, EventArgs e)
         {
-          //  ddlNombre.DataSource = llenar;
+            ddlNombre.DataSource = BuscarBLL.BuscarMaterialesAsadaBLL(ddlASADA.SelectedItem.ToString());
+            ddlNombre.DataBind(); 
         }
 
         protected void Buscar2_Click(object sender, EventArgs e)
         {
-            txtStock.Text = BuscarBLL.BuscarStockMateriaBLL(ddlASADA.SelectedItem.ToString());//, ddlNombre.SelectedItem.ToString());
+            txtStock.Text = BuscarBLL.BuscarStockMateriaBLL(ddlASADA.SelectedItem.ToString(), ddlNombre.SelectedItem.ToString());
         }
 
         protected void btnRegistrar_Click(object sender, EventArgs e)

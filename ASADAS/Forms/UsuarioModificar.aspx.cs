@@ -12,14 +12,20 @@ namespace ASADAS.Forms
     {
         UsuarioBLL UsuarioBLL = new UsuarioBLL();
         BuscarBLL BuscarBLL = new BuscarBLL();
+        LlenarComboBLL LlenarComboBLL = new LlenarComboBLL();
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (!Page.IsPostBack)
+            {
+               //ddlNombre.DataSource = LlenarComboBLL.LlenarUsuariosBLL();
+                //ddlNombre.DataBind();
 
+            }
         }
 
         protected void btnModificar_Click(object sender, EventArgs e)
         {
-            lblError.Text = UsuarioBLL.ModificarUsuarioBLL(ddlNombre.SelectedItem.ToString(), Convert.ToInt32(ddlPermisos.SelectedItem.ToString()));
+            lblError.Text = UsuarioBLL.ModificarUsuarioBLL(ddlNombre.SelectedItem.ToString(), Convert.ToInt32(ddlPermisos.SelectedValue.ToString()));
         }
 
         protected void btnCancelar_Click(object sender, EventArgs e)

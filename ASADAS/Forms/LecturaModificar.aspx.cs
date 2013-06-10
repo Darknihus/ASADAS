@@ -12,17 +12,18 @@ namespace ASADAS.Forms
     {
         LecturaBLL LecturaBLL = new LecturaBLL();
         BuscarBLL BuscarBLL = new BuscarBLL();
+        LlenarComboBLL LlenarComboBLL = new LlenarComboBLL();
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!Page.IsPostBack)
             {
-                //llenar ddlMedidor
+                ddlMedidor.DataSource = LlenarComboBLL.LlenarMedidorBLL();
+                ddlMedidor.DataBind();
             }
         }
 
         protected void Buscar_Click(object sender, EventArgs e)
         {
-            
             txtLectura.Text = BuscarBLL.BuscarLecturaBLL(Convert.ToInt32(ddlMedidor.SelectedItem.ToString())).Rows[0]["Lectura"].ToString();
             lblFecha.Text = BuscarBLL.BuscarLecturaBLL(Convert.ToInt32(ddlMedidor.SelectedItem.ToString())).Rows[0]["Fecha"].ToString();
         }
