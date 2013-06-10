@@ -89,6 +89,7 @@
     <Content Include="Forms\ArregloAgregar.aspx" />
     <Content Include="Forms\ArregloEliminar.aspx" />
     <Content Include="Forms\ArregloModificar.aspx" />
+    <Content Include="Forms\ASADA.aspx" />
     <Content Include="Forms\ASADAAgregar.aspx" />
     <Content Include="Forms\ASADAEliminar.aspx" />
     <Content Include="Forms\Factura.aspx" />
@@ -110,7 +111,7 @@
     <Content Include="Images\fondo2.PNG" />
     <Content Include="Images\head2.jpg" />
     <Content Include="Images\water.png" />
-    <Content Include="Mapa.aspx" />
+    <Content Include="Forms\Mapa.aspx" />
     <Content Include="Scripts\BingMap.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -169,6 +170,13 @@
     </Compile>
     <Compile Include="Forms\ArregloModificar.aspx.designer.cs">
       <DependentUpon>ArregloModificar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ASADA.aspx.cs">
+      <DependentUpon>ASADA.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\ASADA.aspx.designer.cs">
+      <DependentUpon>ASADA.aspx</DependentUpon>
     </Compile>
     <Compile Include="Forms\ASADAAgregar.aspx.cs">
       <DependentUpon>ASADAAgregar.aspx</DependentUpon>
@@ -282,11 +290,11 @@
     <Compile Include="Forms\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Mapa.aspx.cs">
+    <Compile Include="Forms\Mapa.aspx.cs">
       <DependentUpon>Mapa.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Mapa.aspx.designer.cs">
+    <Compile Include="Forms\Mapa.aspx.designer.cs">
       <DependentUpon>Mapa.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />

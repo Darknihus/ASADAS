@@ -1,8 +1,3 @@
-C:\Users\Gordo\Documents\GitHub\ASADAS\ASADAS\bin\ASADAS.dll
-C:\Users\Gordo\Documents\GitHub\ASADAS\ASADAS\bin\ASADAS.pdb
-C:\Users\Gordo\Documents\GitHub\ASADAS\ASADAS\obj\Debug\ASADAS.dll
-C:\Users\Gordo\Documents\GitHub\ASADAS\ASADAS\obj\Debug\ASADAS.pdb
-C:\Users\Gordo\Documents\GitHub\ASADAS\ASADAS\obj\Debug\ASADAS.csprojResolveAssemblyReference.cache
 D:\Darknihus\Documents\GitHub\ASADAS\ASADAS\obj\Debug\ResolveAssemblyReference.cache
 D:\Darknihus\Documents\GitHub\ASADAS\ASADAS\obj\Debug\ASADAS.dll
 D:\Darknihus\Documents\GitHub\ASADAS\ASADAS\obj\Debug\ASADAS.pdb
@@ -33,6 +28,8 @@ D:\Darknihus\Documents\GitHub\ASADAS\ASADAS\bin\policy.2.0.Npgsql.dll
 D:\Darknihus\Documents\GitHub\ASADAS\ASADAS\bin\Npgsql.pdb
 D:\Darknihus\Documents\GitHub\ASADAS\ASADAS\bin\Npgsql.xml
 D:\Darknihus\Documents\GitHub\ASADAS\ASADAS\bin\policy.2.0.Npgsql.config
+C:\Users\Gordo\Documents\GitHub\ASADAS\ASADAS\bin\ASADAS.dll
+C:\Users\Gordo\Documents\GitHub\ASADAS\ASADAS\bin\ASADAS.pdb
 C:\Users\Gordo\Documents\GitHub\ASADAS\ASADAS\bin\BLL.dll
 C:\Users\Gordo\Documents\GitHub\ASADAS\ASADAS\bin\linq2db.dll
 C:\Users\Gordo\Documents\GitHub\ASADAS\ASADAS\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
@@ -58,3 +55,6 @@ C:\Users\Gordo\Documents\GitHub\ASADAS\ASADAS\bin\Microsoft.Practices.ServiceLoc
 C:\Users\Gordo\Documents\GitHub\ASADAS\ASADAS\bin\Microsoft.Practices.Unity.pdb
 C:\Users\Gordo\Documents\GitHub\ASADAS\ASADAS\bin\Microsoft.Practices.Unity.Interception.pdb
 C:\Users\Gordo\Documents\GitHub\ASADAS\ASADAS\bin\policy.2.0.Npgsql.config
+C:\Users\Gordo\Documents\GitHub\ASADAS\ASADAS\obj\Debug\ASADAS.csprojResolveAssemblyReference.cache
+C:\Users\Gordo\Documents\GitHub\ASADAS\ASADAS\obj\Debug\ASADAS.dll
+C:\Users\Gordo\Documents\GitHub\ASADAS\ASADAS\obj\Debug\ASADAS.pdb
