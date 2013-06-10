@@ -12,12 +12,15 @@
                     <td><asp:TextBox ID="txtNombre" class="txt" runat="server"/></td>
                 </tr>
                 <tr>
-                    <td colspan="2">mapa</td>
+                    <td colspan="2">
+
+
+                    </td>
                 </tr>
                 <tr>
                     <td colspan="2" class="tdright">
-                        <asp:Button class="btn" runat="server" Text="Agregar" ID="btnAgregar"/>
-                        <asp:Button class="btn" runat="server" Text="Cancelar" ID="btnCancelar" NavigateUrl="~/Default.aspx" />
+                        <asp:Button class="btn" runat="server" Text="Agregar" ID="btnAgregar" OnClick="btnAgregar_Click"/>
+                        <asp:Button class="btn" runat="server" Text="Cancelar" ID="btnCancelar" NavigateUrl="~/Default.aspx" OnClick="btnCancelar_Click" />
                     </td>
                 </tr>
                 <tr>
