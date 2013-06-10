@@ -41,6 +41,7 @@ namespace BLL
         {
             utilAb.iCedula = cedula;
 
+
             try
             {
                 return AbonadoDAL.EliminarAbonadoDAL(utilAb);

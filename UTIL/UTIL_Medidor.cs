@@ -34,6 +34,9 @@ namespace UTIL
         /// Obtiene o estable El Estado del Medidor
         public int iEstado { get; set; }
 
+        /// Obtiene o estable El Estado del Medidor
+        public string sProveedor { get; set; }
+
             
         //Constructor
         public UTIL_Medidor()
@@ -44,6 +47,7 @@ namespace UTIL
             this.sMarca = string.Empty;
             this.sUbicacionX = string.Empty;
             this.sUbicacionY = string.Empty;
+            this.sProveedor = string.Empty;
             this.iTipo = -1;
             this.iCedula = -1;
             this.iEstado = -1;

@@ -38,7 +38,7 @@ namespace BLL
         public String EliminarAsadaBLL(String nombre)
         {
             utilAs.iEstado = 0;
-
+            utilAs.sNombre = nombre;
             try
             {
                 return AsadaDAL.EliminarAsadaDAL(utilAs);

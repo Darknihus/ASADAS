@@ -46,7 +46,7 @@ namespace BLL
 
             try
             {
-                return MedidorDAL.EliminarMedidorDAL(utilMe);
+                return MedidorDAL.ModificarMedidorDAL(utilMe);
             }
             catch (Exception ex)
             {

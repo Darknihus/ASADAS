@@ -41,7 +41,7 @@ namespace BLL
 
             try
             {
-                return MaterialDAL.EliminarMaterialDAL(utilMa);
+                return MaterialDAL.AumentarMaterialDAL(utilMa);
             }
             catch (Exception ex)
             {
