@@ -3,9 +3,8 @@
 <html>
    <head>
       <title></title>
-       <link href="CSS/btn.css" rel="stylesheet" />
+       <link href="/CSS/btn.css" rel="stylesheet" />
       <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-       
       <script type="text/javascript" src="http://ecn.dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=7.0"></script>
       <script type="text/javascript">
           var map = null;

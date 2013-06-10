@@ -13,10 +13,6 @@
                     <td><asp:TextBox ID="txtNombre" class="txt" runat="server"/></td>
                 </tr>
                 <tr>
-                    <script type="text/javascript">
-                        var data = document.getElementById('Mapa').document.getElementById('Data');
-                        document.getElementById('<%= Data.ClientID %>').innerText = data;
-                    </script>
                     <td colspan="2">
                         <iframe id="mapa" src="Mapa.aspx" width="600" height="600">
                         </iframe>
