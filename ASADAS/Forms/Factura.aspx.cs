@@ -24,7 +24,12 @@ namespace ASADAS.Forms
 
         protected void Buscar_Click(object sender, EventArgs e)
         {
-            lblNombre.Text = BuscarBLL.BuscarAbonadoBLL(Convert.ToInt32(ddlCedula.SelectedItem)).Rows[0]["Nombre"].ToString();
+            lblFecha.Text = BuscarBLL.BuscarFacturaBLL(Convert.ToInt32(ddlCedula.SelectedItem)).Rows[0]["fecha"].ToString();
+            lblCobro.Text = BuscarBLL.BuscarFacturaBLL(Convert.ToInt32(ddlCedula.SelectedItem)).Rows[0]["cobro"].ToString();
+            lblConsumo.Text = BuscarBLL.BuscarFacturaBLL(Convert.ToInt32(ddlCedula.SelectedItem)).Rows[0]["Consumo"].ToString();
+            lblMedidor.Text = BuscarBLL.BuscarFacturaBLL(Convert.ToInt32(ddlCedula.SelectedItem)).Rows[0]["medidor"].ToString();
+            lblFactura.Text = BuscarBLL.BuscarFacturaBLL(Convert.ToInt32(ddlCedula.SelectedItem)).Rows[0]["id_factura"].ToString(); ;
+            lblNombre.Text = BuscarBLL.BuscarAbonadoBLL(Convert.ToInt32(ddlCedula.SelectedItem)).Rows[0]["nombre"].ToString();
         }
 
         protected void btnCobrar_Click(object sender, EventArgs e)

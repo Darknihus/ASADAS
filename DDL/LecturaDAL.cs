@@ -14,8 +14,8 @@ namespace DAL
     {
         string messageOutput = "";
 
-            //----------------------------------------------------------------------------------------------
-            //Insertar Lectura
+        //----------------------------------------------------------------------------------------------
+        //Insertar Lectura
         public String AgregarLecturaDAL(UTIL_Lectura utilLe)
         {
             ConnectionBD stringconn = new ConnectionBD();
@@ -50,8 +50,8 @@ namespace DAL
             return messageOutput;
         }
 
-            //----------------------------------------------------------------------------------------------
-            //Eliminar Lectura
+        //----------------------------------------------------------------------------------------------
+        //Eliminar Lectura
         public String ModificarLecturaDAL(UTIL_Lectura utilLe)
         {
 
@@ -85,6 +85,6 @@ namespace DAL
 
             return messageOutput;
         }
-        
+
     }
 }
