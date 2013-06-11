@@ -22,7 +22,7 @@ namespace ASADAS.Forms
         {
            string datos = bd.Value;
            String [] strData = datos.Split(',');
-           FuenteBLL.AgregarFuenteBLL(ddlASADA.SelectedItem.ToString(), txtNombre.Text, strData[0], strData[1]);
+           lblError.Text = FuenteBLL.AgregarFuenteBLL(ddlASADA.SelectedItem.ToString(), txtNombre.Text, strData[0], strData[1]);
         }
 
         protected void btnCancelar_Click(object sender, EventArgs e)

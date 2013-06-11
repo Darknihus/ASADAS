@@ -90,10 +90,8 @@
     <Content Include="Forms\ArregloEliminar.aspx" />
     <Content Include="Forms\ArregloModificar.aspx" />
     <Content Include="Forms\ASADAAgregar.aspx" />
-    <Content Include="Forms\ASADAEliminar.aspx" />
     <Content Include="Forms\Factura.aspx" />
     <Content Include="Forms\FuenteAgregar.aspx" />
-    <Content Include="Forms\FuenteEliminar.aspx" />
     <Content Include="Forms\LecturaAgregar.aspx" />
     <Content Include="Forms\LecturaModificar.aspx" />
     <Content Include="Forms\MaterialAgregar.aspx" />
@@ -175,13 +173,6 @@
     <Compile Include="Forms\ASADAAgregar.aspx.designer.cs">
       <DependentUpon>ASADAAgregar.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Forms\ASADAEliminar.aspx.cs">
-      <DependentUpon>ASADAEliminar.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Forms\ASADAEliminar.aspx.designer.cs">
-      <DependentUpon>ASADAEliminar.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Forms\Factura.aspx.cs">
       <DependentUpon>Factura.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -195,13 +186,6 @@
     </Compile>
     <Compile Include="Forms\FuenteAgregar.aspx.designer.cs">
       <DependentUpon>FuenteAgregar.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\FuenteEliminar.aspx.cs">
-      <DependentUpon>FuenteEliminar.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Forms\FuenteEliminar.aspx.designer.cs">
-      <DependentUpon>FuenteEliminar.aspx</DependentUpon>
     </Compile>
     <Compile Include="Forms\LecturaAgregar.aspx.cs">
       <DependentUpon>LecturaAgregar.aspx</DependentUpon>

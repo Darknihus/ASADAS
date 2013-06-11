@@ -28,7 +28,7 @@ namespace ASADAS.Forms
         {
             string datos = bd.Value;
             String[] strData = datos.Split(',');
-            MedidorBLL.AgregarMedidorBLL(ddlASADA.SelectedItem.ToString(), Convert.ToInt32(ddlCedula.SelectedItem.ToString()), Convert.ToInt32(txtCodigo.Text), txtGarantia.Text, txtMarca.Text, Convert.ToInt32(txtTipo.Text), strData[0], strData[1]);
+            lblError.Text = MedidorBLL.AgregarMedidorBLL(ddlASADA.SelectedItem.ToString(), Convert.ToInt32(ddlCedula.SelectedItem.ToString()), Convert.ToInt32(txtCodigo.Text), txtGarantia.Text, txtMarca.Text, Convert.ToInt32(txtTipo.Text), strData[0], strData[1]);
         }
 
         protected void btnCancelar_Click(object sender, EventArgs e)

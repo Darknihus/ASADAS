@@ -33,7 +33,7 @@ namespace ASADAS.Forms
                {
                    //Nombre, latitud, longitud
                    String[] strData2 = strData[i].Split('*');
-                   AsadaBLL.AgregarAsadaBLL(strData2[0], strData2[1], strData2[2]);
+                   lblError.Text = AsadaBLL.AgregarAsadaBLL(strData2[0], strData2[1], strData2[2]);
                }
             }
         }

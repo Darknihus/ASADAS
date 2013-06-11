@@ -8,11 +8,13 @@
             <br/>
             <table>
                 <tr>
-                    <td colspan="2">mapa</td>
+                    <td>Nombre</td>
+                    <td><asp:DropDownList ID="ddlMedidor" class="txt" runat="server"/></td>
                 </tr>
                 <tr>
                     <td colspan="2" class="tdright">
-                        <asp:Button class="btn" runat="server" Text="Cancelar" ID="btnCancelar" NavigateUrl="~/Default.aspx" />
+                        <asp:Button class="btn" runat="server" Text="Habilitar" ID="btnHabilitar" OnClick="btnHabilitar_Click"/>
+                        <asp:Button class="btn" runat="server" Text="Deshabilitar" ID="btnDeshabilitar" OnClick="btnDeshabilitar_Click"/>
                     </td>
                 </tr>
                 <tr>
