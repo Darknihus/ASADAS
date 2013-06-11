@@ -40,12 +40,11 @@
                   if (pincount > 0)
                       {
                       map.entities.pop();
-                          
                       }
                       pincount = 1;
                       var pin = new Microsoft.Maps.Pushpin(loc, { htmlContent: "<img src='/images/water.png'/>" });
                       map.entities.push(pin);
-                      var data = ([nombre, loc.latitude, loc.longitude]);
+                      var data = ([loc.latitude, loc.longitude]);
                       document.getElementById('bd').value = data;
               }
           }

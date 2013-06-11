@@ -11,7 +11,7 @@ namespace ASADAS.Forms
 {
     public partial class ASADAAgregar : System.Web.UI.Page
     {
-        AsadaBLL ArregloBLL = new AsadaBLL();     
+        AsadaBLL AsadaBLL = new AsadaBLL();     
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!Page.IsPostBack)
@@ -33,7 +33,7 @@ namespace ASADAS.Forms
                {
                    //Nombre, latitud, longitud
                    String[] strData2 = strData[i].Split('*');
-                   ArregloBLL.AgregarAsadaBLL(strData2[0], strData2[1], strData2[2]);
+                   AsadaBLL.AgregarAsadaBLL(strData2[0], strData2[1], strData2[2]);
                }
             }
         }
