@@ -21,3 +21,4 @@ C:\Users\Gordo\Documents\GitHub\ASADAS\UTIL\bin\Debug\Npgsql.xml
 C:\Users\Gordo\Documents\GitHub\ASADAS\UTIL\bin\Debug\policy.2.0.Npgsql.config
 C:\Users\Gordo\Documents\GitHub\ASADAS\UTIL\obj\Debug\UTIL.dll
 C:\Users\Gordo\Documents\GitHub\ASADAS\UTIL\obj\Debug\UTIL.pdb
+C:\Users\Gordo\Documents\GitHub\ASADAS\UTIL\obj\Debug\UTIL.csprojResolveAssemblyReference.cache

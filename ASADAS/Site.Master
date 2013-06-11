@@ -4,12 +4,12 @@
     <head id="Head1" runat="server">
         <meta http-equiv="Content-Type" content="text/html" charset="utf-8"/>
         <title>Empleos TEC</title>
-        <link href="Css/Styles.css" rel="stylesheet" />
-        <link href="Css/Images.css" rel="stylesheet" />
-        <link href="Css/btn.css" rel="stylesheet" />
-        <link href="Css/txt.css" rel="stylesheet" />
-        <link href="Css/Site.css" rel="stylesheet" />
-        <link href="Cs/tables.css" rel="stylesheet" />
+        <link href="~/Css/Styles.css" rel="stylesheet" />
+        <link href="~/Css/Images.css" rel="stylesheet" />
+        <link href="~/Css/btn.css" rel="stylesheet" />
+        <link href="~/Css/txt.css" rel="stylesheet" />
+        <link href="~/Css/Site.css" rel="stylesheet" />
+        <link href="~/Css/tables.css" rel="stylesheet" />
         <link rel="stylesheet" href="~/Css/menu-bar.css" type="text/css" media="screen">
         <asp:ContentPlaceHolder ID="HeadContent" runat="server">
         </asp:ContentPlaceHolder>

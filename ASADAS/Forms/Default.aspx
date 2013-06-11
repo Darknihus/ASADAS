@@ -13,23 +13,7 @@
                         <asp:Label ID="lblError" class="error" runat="server" Text="" />
                     </div>
                 </div>
-        <div class="registrar">
-    <div class="titulo">Libros</div><br/>
-                <asp:Image ID="imgError2" Visible="false" class="imgError" runat="server" ImageUrl="/Images/error.png" />
-                    &nbsp;<asp:Label ID="lblError2" class="error" runat="server" Text="" />
-        <br/>
-            <asp:GridView ID="gvLibros" runat="server">
-            </asp:GridView>
-
-         </div>
-        <br/><br/>
-        <div class="registrar">
-    <div class="titulo">BestSeller</div>
-        <br/>
-            <asp:GridView ID="gvBest" runat="server">
-            </asp:GridView>
-
-        </div>
+   
     </form>
 </asp:Content>
 

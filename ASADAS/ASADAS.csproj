@@ -82,7 +82,6 @@
     <Content Include="Css\Styles.css" />
     <Content Include="Css\tables.css" />
     <Content Include="Css\txt.css" />
-    <Content Include="Default.aspx" />
     <Content Include="Forms\AbonadoAgregar.aspx" />
     <Content Include="Forms\AbonadoEliminar.aspx" />
     <Content Include="Forms\AbonadoModificar.aspx" />
@@ -117,13 +116,6 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Default.aspx.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Default.aspx.designer.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Forms\AbonadoAgregar.aspx.cs">
       <DependentUpon>AbonadoAgregar.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
