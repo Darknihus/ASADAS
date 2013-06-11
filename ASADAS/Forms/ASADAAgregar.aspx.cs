@@ -4,36 +4,38 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Text.RegularExpressions;
 using BLL;
 
 namespace ASADAS.Forms
 {
     public partial class ASADAAgregar : System.Web.UI.Page
     {
-        AsadaBLL ArregloBLL = new AsadaBLL();
-        public string Datos = "";
-        
+        AsadaBLL ArregloBLL = new AsadaBLL();     
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!Page.IsPostBack)
             {
             }
+            else {
+            }
         }
-
-        protected void btnAgregar_Click(object sender, EventArgs e,String datos)
+        
+        protected void btnAgregar_Click(object sender, EventArgs e)
         {
-           //string strData = Request.Form["Data"].ToString();
-           String [] strData2 = datos.Split(',');
-           for (int i = 0; i < strData2.Length; i++) 
+           string datos = bd.Value;
+           datos = datos.Replace(",", "");
+           String [] strData = datos.Split('/');
+           for (int i = 0; i < strData.Length; i++) 
            {
-               if (strData2[i] == "")
+               if (strData[i].Equals("")) { i++; }
+               else
                {
-                   i++;
+                   //Nombre, latitud, longitud
+                   String[] strData2 = strData[i].Split('*');
+                   ArregloBLL.AgregarAsadaBLL(strData2[0], strData2[1], strData2[2]);
                }
-               else {
-                   ArregloBLL.AgregarAsadaBLL(strData2[i], strData2[i + 1], strData2[i + 2]);
-               }
-           }
+            }
         }
 
         protected void btnCancelar_Click(object sender, EventArgs e)

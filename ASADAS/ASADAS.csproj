@@ -89,7 +89,6 @@
     <Content Include="Forms\ArregloAgregar.aspx" />
     <Content Include="Forms\ArregloEliminar.aspx" />
     <Content Include="Forms\ArregloModificar.aspx" />
-    <Content Include="Forms\ASADA.aspx" />
     <Content Include="Forms\ASADAAgregar.aspx" />
     <Content Include="Forms\ASADAEliminar.aspx" />
     <Content Include="Forms\Factura.aspx" />
@@ -101,7 +100,6 @@
     <Content Include="Forms\MaterialModificar.aspx" />
     <Content Include="Forms\MedidorAgregar.aspx" />
     <Content Include="Forms\MedidorEliminar.aspx" />
-    <Content Include="Forms\PRUEBAS_BUSCAR.aspx" />
     <Content Include="Forms\UsuarioAgregar.aspx" />
     <Content Include="Forms\UsuarioEliminar.aspx" />
     <Content Include="Forms\UsuarioModificar.aspx" />
@@ -111,7 +109,6 @@
     <Content Include="Images\fondo2.PNG" />
     <Content Include="Images\head2.jpg" />
     <Content Include="Images\water.png" />
-    <Content Include="Forms\Mapa.aspx" />
     <Content Include="Scripts\BingMap.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -170,13 +167,6 @@
     </Compile>
     <Compile Include="Forms\ArregloModificar.aspx.designer.cs">
       <DependentUpon>ArregloModificar.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\ASADA.aspx.cs">
-      <DependentUpon>ASADA.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Forms\ASADA.aspx.designer.cs">
-      <DependentUpon>ASADA.aspx</DependentUpon>
     </Compile>
     <Compile Include="Forms\ASADAAgregar.aspx.cs">
       <DependentUpon>ASADAAgregar.aspx</DependentUpon>
@@ -255,13 +245,6 @@
     <Compile Include="Forms\MedidorEliminar.aspx.designer.cs">
       <DependentUpon>MedidorEliminar.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Forms\PRUEBAS_BUSCAR.aspx.cs">
-      <DependentUpon>PRUEBAS_BUSCAR.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Forms\PRUEBAS_BUSCAR.aspx.designer.cs">
-      <DependentUpon>PRUEBAS_BUSCAR.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Forms\UsuarioAgregar.aspx.cs">
       <DependentUpon>UsuarioAgregar.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -289,13 +272,6 @@
     </Compile>
     <Compile Include="Forms\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\Mapa.aspx.cs">
-      <DependentUpon>Mapa.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Forms\Mapa.aspx.designer.cs">
-      <DependentUpon>Mapa.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">

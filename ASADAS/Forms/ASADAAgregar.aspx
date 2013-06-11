@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="" Language="C#"  AutoEventWireup="true" CodeBehind="ASADAAgregar.aspx.cs" Inherits="ASADAS.Forms.ASADAAgregar" %>
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
     <head id="Head1" runat="server">
         <meta http-equiv="Content-Type" content="text/html" charset="utf-8"/>
@@ -22,7 +22,6 @@
                       mapTypeId: Microsoft.Maps.MapTypeId.aerial,
                       center: new Microsoft.Maps.Location(10.65672975334863, -84.76763305664062),
                       zoom: 12,
-                      customizeOverlays: true,
                       enableClickableLogo: false,
                       enableSearchLogo: false,
                       showCopyright: false,
@@ -40,10 +39,10 @@
                   var nombre = prompt("Ingrese el nombre de la ASADA", "");
                   if ((nombre != null) && (nombre != '')) {
                       var pin = new Microsoft.Maps.Pushpin(loc, { htmlContent: "<div style='font-size:20px; color:Black; font-weight:bold;'>" + nombre + "<br/><img src='/images/water.png'/></div>" });
-                      data.push([nombre, loc.latitude, loc.longitude,"\n"]);
+                      data.push([nombre,"*",loc.latitude,"*",loc.longitude,"/"]);
                       Microsoft.Maps.Events.addHandler(pin, "click", removePin); // Borrar
-                      map.entities.push(pin);//agrega el pin
-                    //  document.getElementById("Button1").textContent=data;
+                      map.entities.push(pin);
+                      document.getElementById('bd').value = data;
                   }
               }
           }
@@ -136,13 +135,8 @@
                 </tr>
                 <tr>
                     <td class="tdright">
-                        <asp:Button class="btn" runat="server" Text="Agregar" ID="btnAgregar" OnClick="btnAgregar_Click("Button1.value")" />
+                        <asp:Button class="btn" runat="server" Text="Agregar" ID="btnAgregar" OnClick="btnAgregar_Click" />
                         <asp:Button class="btn" runat="server" Text="Cancelar" ID="btnCancelar" OnClick="btnCancelar_Click" />
-                    </td>
-                </tr>
-                <tr>
-                    <td class="tdright">
-                        <asp:Label runat="server" ID="Button1" name="Button1" />
                     </td>
                 </tr>
                 <tr>
@@ -151,8 +145,8 @@
                         <asp:Label ID="lblError" class="error" runat="server" Text="" />
                     </td>
                 </tr>
-            </table>
-               
+            </table><!--type="hidden"-->
+               <input type="hidden" id="bd" runat="server" value=""/>
                 </div>
             </form>  
             <footer>
